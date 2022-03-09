@@ -1,0 +1,4 @@
+#!/bin/bash 
+export LC_ALL="C" 
+rofi -show windowcd 2>&1 | tee /tmp/rofi-run.log 
+exit 0

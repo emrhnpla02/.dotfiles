@@ -1,0 +1,9 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+Autolock=false
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/home/emrhnpla02/All/Pictures/Wallpaper/Slideshow/18.png
+SlidePaths=/home/emrhnpla02/.local/share/wallpapers,/usr/share/wallpapers

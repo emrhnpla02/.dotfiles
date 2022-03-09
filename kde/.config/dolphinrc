@@ -1,0 +1,42 @@
+MenuBar=Disabled
+
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+ShowFullPathInTitlebar=true
+UseTabForSwitchingSplitView=true
+Version=201
+ViewPropsTimestamp=2022,1,29,23,40,36.42
+
+[IconsMode]
+FontWeight=50
+PreviewSize=48
+
+[KFileDialog Settings]
+detailViewIconSize=16
+
+[KPropertiesDialog]
+eDP Height 1920x1080=616
+eDP Width 1920x1080=465
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+eDP Height 1920x1080=279
+eDP Width 1920x1080=886
+eDP XPosition 1920x1080=1024
+eDP YPosition 1920x1080=791
+
+[Notification Messages]
+ConfirmDelete=true
+
+[Open-with settings]
+CompletionMode=1
+History=alac,neo,ok
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs

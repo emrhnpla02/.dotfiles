@@ -1,0 +1,8 @@
+require'emrhnpla.commentnvim'
+require'emrhnpla.treesitter'
+require'emrhnpla.telescope'
+require'emrhnpla.lspconfig'
+require'emrhnpla.nvimtree'
+require'emrhnpla.lspsaga'
+require'emrhnpla.lualine'
+require'emrhnpla.nvimcmp'

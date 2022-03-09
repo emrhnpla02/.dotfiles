@@ -1,0 +1,10 @@
+# XDG Paths
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_DATA_HOME=$HOME/.local/share
+
+# zsh config
+export ZDOTDIR=$HOME/.config/zsh
+
+# pfetch config
+[ -f ~/.config/pfetch/.pfetch ] && source ~/.config/pfetch/.pfetch

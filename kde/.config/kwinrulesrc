@@ -1,0 +1,196 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Application settings for firefox
+clientmachine=localhost
+desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
+noborder=true
+noborderrule=3
+opacityactive=80
+title=Spotify
+windowrole=dolphin#1
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[2]
+Description=Window settings for spotify
+clientmachine=localhost
+desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
+desktopsrule=3
+noborder=true
+noborderrule=3
+opacityactive=80
+opacityactiverule=2
+title=Spotify
+titlematch=1
+types=1
+windowrole=dolphin#1
+wmclass=spotify
+wmclassmatch=1
+
+[3]
+Description=Window settings for dolphin
+clientmachine=localhost
+opacityactive=85
+opacityactiverule=2
+title=/home/emrhnpla02/.config — Dolphin
+types=1
+windowrole=dolphin#1
+windowrolematch=1
+wmclass=dolphin
+wmclassmatch=1
+
+[368a9ecc-53ee-4db0-8c02-2a8970bf1dac]
+Description=Application settings for ferdi
+clientmachine=localhost
+noborder=true
+noborderrule=3
+wmclass=ferdi
+wmclassmatch=1
+
+[38765973-2442-4742-9a8a-584e2c7e6d0f]
+Description=Window settings for discord
+clientmachine=localhost
+opacityactive=98
+opacityactiverule=2
+title=Discord
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=discord
+wmclassmatch=1
+
+[4]
+Description=Application settings for discord
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+title=Discord
+windowrole=browser-window
+wmclass=discord
+wmclassmatch=1
+
+[43f85530-fff2-4f13-adf3-723babada9c7]
+Description=Window settings for firefox
+clientmachine=localhost
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[47ad87be-1abe-4db4-b067-c8d1c2f40748]
+Description=Application settings for discord
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+wmclass=discord
+wmclassmatch=1
+
+[4849490e-ce3b-4683-9f66-7168fda78969]
+Description=Application settings for spotify
+clientmachine=localhost
+desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
+desktopsrule=3
+wmclass=spotify
+wmclassmatch=1
+
+[5]
+Description=Application settings for vscodium
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+title=Discord
+windowrole=browser-window
+wmclass=vscodium
+wmclassmatch=1
+
+[577ebd85-9e12-4f41-852d-7794cfd0f0c5]
+Description=Window settings for spotify
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+title=Spotify
+titlematch=1
+types=1
+wmclass=spotify
+wmclassmatch=1
+
+[6]
+Description=Window settings for discord
+clientmachine=localhost
+opacityactive=97
+opacityactiverule=2
+title=Discord
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=discord
+wmclassmatch=1
+
+[7087675d-7904-4a28-9308-5d8b4fc5ea5f]
+Description=Window settings for firefox
+clientmachine=localhost
+noborder=true
+noborderrule=2
+title=Firefox: Hide Native Tabs and Titlebar | by Xilin Sun | Medium — Mozilla Firefox
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[7ac2f88b-e6b7-4145-980c-8f4efc65a132]
+Description=Window settings for dolphin
+clientmachine=localhost
+opacityactive=80
+opacityactiverule=2
+title=/home/emrhnpla02/.config — Dolphin
+types=1
+windowrole=dolphin#1
+windowrolematch=1
+wmclass=dolphin
+wmclassmatch=1
+
+[81d26ac9-cb0b-4b99-856f-e8fa4663e19e]
+Description=Application settings for firefox
+clientmachine=localhost
+noborder=true
+noborderrule=3
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=7
+rules=368a9ecc-53ee-4db0-8c02-2a8970bf1dac,1,2,3,4,5,6
+
+[bd2c9ecb-1aa7-4c97-8281-80c17ba4e4b0]
+Description=Window settings for firefox
+clientmachine=localhost
+title=Tüm zamanların en çok satan kitapları. Birini hiçbir zaman okuyamayacağız! - YouTube — Mozilla Firefox
+types=1
+windowrole=browser
+windowrolematch=1
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1
+
+[d8e4536d-8fee-4587-b661-5058e1bb40a7]
+Description=Application settings for vscodium
+clientmachine=localhost
+opacityactive=85
+opacityactiverule=2
+wmclass=vscodium
+wmclassmatch=1
+
+[f5be1d14-47ec-4271-862b-f65beca9cda5]
+Description=Application settings for firefox
+clientmachine=localhost
+wmclass=navigator firefox
+wmclasscomplete=true
+wmclassmatch=1

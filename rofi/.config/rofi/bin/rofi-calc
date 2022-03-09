@@ -1,0 +1,4 @@
+#!/bin/bash 
+export LC_ALL="C" 
+rofi -show calc -modi calc -no-show-match -no-sort -no-persist-history 2>&1 | tee /tmp/rofi-run.log 
+exit 0
