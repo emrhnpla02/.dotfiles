@@ -2,6 +2,18 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
 [1]
+Description=Application settings for ferdi
+clientmachine=localhost
+desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
+noborder=true
+noborderrule=3
+opacityactive=80
+title=Spotify
+windowrole=dolphin#1
+wmclass=ferdi
+wmclassmatch=1
+
+[2]
 Description=Application settings for firefox
 clientmachine=localhost
 desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
@@ -14,7 +26,15 @@ wmclass=navigator firefox
 wmclasscomplete=true
 wmclassmatch=1
 
-[2]
+[2e748e8e-9a64-4ac1-95f2-759a80314581]
+Description=Application settings for spotify
+clientmachine=localhost
+noborder=true
+noborderrule=3
+wmclass=spotify
+wmclassmatch=1
+
+[3]
 Description=Window settings for spotify
 clientmachine=localhost
 desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
@@ -28,18 +48,6 @@ titlematch=1
 types=1
 windowrole=dolphin#1
 wmclass=spotify
-wmclassmatch=1
-
-[3]
-Description=Window settings for dolphin
-clientmachine=localhost
-opacityactive=85
-opacityactiverule=2
-title=/home/emrhnpla02/.config — Dolphin
-types=1
-windowrole=dolphin#1
-windowrolematch=1
-wmclass=dolphin
 wmclassmatch=1
 
 [368a9ecc-53ee-4db0-8c02-2a8970bf1dac]
@@ -63,13 +71,15 @@ wmclass=discord
 wmclassmatch=1
 
 [4]
-Description=Application settings for discord
+Description=Window settings for dolphin
 clientmachine=localhost
-opacityactive=90
+opacityactive=85
 opacityactiverule=2
-title=Discord
-windowrole=browser-window
-wmclass=discord
+title=/home/emrhnpla02/.config — Dolphin
+types=1
+windowrole=dolphin#1
+windowrolematch=1
+wmclass=dolphin
 wmclassmatch=1
 
 [43f85530-fff2-4f13-adf3-723babada9c7]
@@ -99,13 +109,13 @@ wmclass=spotify
 wmclassmatch=1
 
 [5]
-Description=Application settings for vscodium
+Description=Application settings for discord
 clientmachine=localhost
 opacityactive=90
 opacityactiverule=2
 title=Discord
 windowrole=browser-window
-wmclass=vscodium
+wmclass=discord
 wmclassmatch=1
 
 [577ebd85-9e12-4f41-852d-7794cfd0f0c5]
@@ -120,6 +130,16 @@ wmclass=spotify
 wmclassmatch=1
 
 [6]
+Description=Application settings for vscodium
+clientmachine=localhost
+opacityactive=90
+opacityactiverule=2
+title=Discord
+windowrole=browser-window
+wmclass=vscodium
+wmclassmatch=1
+
+[7]
 Description=Window settings for discord
 clientmachine=localhost
 opacityactive=97
@@ -166,8 +186,8 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=7
-rules=368a9ecc-53ee-4db0-8c02-2a8970bf1dac,1,2,3,4,5,6
+count=8
+rules=2e748e8e-9a64-4ac1-95f2-759a80314581,1,2,3,4,5,6,7
 
 [bd2c9ecb-1aa7-4c97-8281-80c17ba4e4b0]
 Description=Window settings for firefox

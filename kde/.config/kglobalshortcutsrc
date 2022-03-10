@@ -359,7 +359,7 @@ _launch=Alt+Space\tAlt+F2\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.kuserfeedback-console.desktop]
 _k_friendly_name=UserFeedback Console
-_launch=,none,Launch UserFeedback Console
+_launch=none,none,Launch UserFeedback Console
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
