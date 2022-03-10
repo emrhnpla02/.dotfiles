@@ -73,6 +73,8 @@ wmclassmatch=1
 [4]
 Description=Window settings for dolphin
 clientmachine=localhost
+desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
+noborder=true
 opacityactive=85
 opacityactiverule=2
 title=/home/emrhnpla02/.config — Dolphin
@@ -176,6 +178,18 @@ windowrolematch=1
 wmclass=dolphin
 wmclassmatch=1
 
+[8]
+Description=Window settings for discord
+clientmachine=localhost
+opacityactive=97
+opacityactiverule=2
+title=Discord
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=discord
+wmclassmatch=1
+
 [81d26ac9-cb0b-4b99-856f-e8fa4663e19e]
 Description=Application settings for firefox
 clientmachine=localhost
@@ -186,8 +200,8 @@ wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=8
-rules=2e748e8e-9a64-4ac1-95f2-759a80314581,1,2,3,4,5,6,7
+count=7
+rules=1,2,3,4,5,6,7
 
 [bd2c9ecb-1aa7-4c97-8281-80c17ba4e4b0]
 Description=Window settings for firefox
