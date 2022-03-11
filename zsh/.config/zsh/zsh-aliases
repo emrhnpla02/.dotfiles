@@ -86,6 +86,7 @@ alias DK="doas docker"
 alias Nrs="npm run serve"
 alias Nrb="npm run build"
 alias Ni="npm install"
+alias Ninit="npm init"
 
 # Apps
 alias vw="nvim ~/All/vimwiki/index.wiki"
