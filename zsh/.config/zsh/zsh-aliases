@@ -15,6 +15,7 @@ alias confn="nvim ~/.config/nvim/init.vim"
 alias confz="nvim ~/.config/zsh/.zshrc"
 alias dotfiles="cd ~/.dotfiles"
 
+
 # Package Manager & Aur Helper
 alias Ro="pacman -Qtdq | doas pacman -Rns -"
 alias Ss="doas pacman -Ss"
@@ -28,6 +29,7 @@ alias Sua="paru -Sua"
 alias Pss="paru -Ss"
 alias Ps="paru -S"
 alias P="paru"
+
 
 # Git
 alias Gp-uom="git push -u origin main"
@@ -51,6 +53,7 @@ alias Ga="git add"
 alias Gl="git log"
 alias G="git"
 
+
 # DotNet
 alias Dusi="dotnet user-secrets init"
 alias Dwr="dotnet watch run"
@@ -67,6 +70,11 @@ alias Da="dotnet add"
 alias Dn="dotnet new"
 alias D="dotnet"
 
+# EntityFramework Core
+alias Defma="function _(){ dotnet ef migrations add $1 -p $2 -s $3 }; _"
+alias Defda="function _(){ dotnet ef database update -p $1 -s $2 }; _"
+
+
 # Docker
 alias DKcl="doas docker container logs"
 alias DKit="doas docker images tag"
@@ -82,15 +90,17 @@ alias DKr="doas docker run"
 alias docker="doas docker"
 alias DK="doas docker"
 
+
+# PostgreSQL
+alias psqlinit="postgres initdb -D /var/lib/postgres/data"
+alias psqluser="sudo -u postgres -i"
+
+
 # NodeJS
 alias Nrs="npm run serve"
 alias Nrb="npm run build"
 alias Ni="npm install"
 alias Ninit="npm init"
-
-# PostgreSQL
-alias psqlinit="postgres initdb -D /var/lib/postgres/data"
-alias psqluser="sudo -u postgres -i"
 
 
 # Apps
@@ -102,6 +112,7 @@ alias stm="steam-tui"
 alias code="vscodium"
 alias nv="nvim"
 alias v="nvim"
+
 
 # Other
 alias zsh-update-plugins="find "$ZDOTDIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
