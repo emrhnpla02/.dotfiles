@@ -354,6 +354,10 @@ _launch=none,none,Launch Help
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
 
+[org.kde.kinfocenter.desktop]
+_k_friendly_name=Info Center
+_launch=none,none,Launch Info Center
+
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner

@@ -26,17 +26,17 @@ eDP Width 1920x1080=465
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled
-eDP Height 1920x1080=999
-eDP Width 1920x1080=1902
-eDP XPosition 1920x1080=9
-eDP YPosition 1920x1080=72
+eDP Height 1920x1080=481
+eDP Width 1920x1080=944
+eDP XPosition 1920x1080=966
+eDP YPosition 1920x1080=590
 
 [Notification Messages]
 ConfirmDelete=true
 
 [Open-with settings]
 CompletionMode=1
-History=ark,alac,neo,ok
+History=neo,ark,alac,ok
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
