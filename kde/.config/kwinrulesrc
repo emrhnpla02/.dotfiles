@@ -2,21 +2,33 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
 [1]
-Description=Application settings for firefox-nightly
+Description=Application settings for dolphin
 clientmachine=localhost
 desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
 noborder=true
-noborderrule=3
 opacityactive=80
+opacityactiverule=2
+title=Spotify
+windowrole=dolphin#1
+wmclass=dolphin
+wmclassmatch=1
+
+[2]
+Description=Application settings for firefox-nightly
+clientmachine=localhost
+noborder=true
+noborderrule=3
+opacityactive=90
 title=Spotify
 windowrole=dolphin#1
 wmclass=navigator firefox-nightly
 wmclasscomplete=true
 wmclassmatch=1
 
-[2]
+[3]
 Description=Application settings for vscodium
 clientmachine=localhost
+noborder=true
 opacityactive=90
 opacityactiverule=2
 title=Discord
@@ -24,17 +36,20 @@ windowrole=browser-window
 wmclass=vscodium
 wmclassmatch=1
 
-[3]
+[4]
 Description=Application settings for spotify
 clientmachine=localhost
+desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
 noborder=true
 noborderrule=2
 opacityactive=80
 opacityactiverule=2
+title=Spotify
+windowrole=dolphin#1
 wmclass=spotify
 wmclassmatch=1
 
-[4]
+[5]
 Description=Application settings for firefox
 clientmachine=localhost
 desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
@@ -47,18 +62,24 @@ wmclass=navigator firefox
 wmclasscomplete=true
 wmclassmatch=1
 
-[5]
+[6]
 Description=Application settings for ferdi
 clientmachine=localhost
-desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
 noborder=true
 noborderrule=3
-opacityactive=80
 title=Spotify
 windowrole=dolphin#1
 wmclass=ferdi
 wmclassmatch=1
 
+[71ec6cf4-40a5-44ce-be61-6253fd6e5bc4]
+Description=Application settings for dolphin
+clientmachine=localhost
+opacityactive=80
+opacityactiverule=2
+wmclass=dolphin
+wmclassmatch=1
+
 [General]
-count=5
-rules=1,2,3,4,5
+count=6
+rules=1,2,3,4,5,6
