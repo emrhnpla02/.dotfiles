@@ -51,7 +51,7 @@ alias Ga="git add"
 alias Gl="git log"
 alias G="git"
 
-# Dotnet
+# DotNet
 alias Dusi="dotnet user-secrets init"
 alias Dwr="dotnet watch run"
 alias Drs="dotnet restore"
@@ -82,11 +82,16 @@ alias DKr="doas docker run"
 alias docker="doas docker"
 alias DK="doas docker"
 
-# Nodejs
+# NodeJS
 alias Nrs="npm run serve"
 alias Nrb="npm run build"
 alias Ni="npm install"
 alias Ninit="npm init"
+
+# PostgreSQL
+alias psqlinit="postgres initdb -D /var/lib/postgres/data"
+alias psqluser="sudo -u postgres -i"
+
 
 # Apps
 alias vw="nvim ~/All/vimwiki/index.wiki"
@@ -108,6 +113,7 @@ alias fgrep="fgrep --color=auto"
 alias egrep="egrep --color=auto"
 alias grep="grep --color=auto"
 alias ll="ls -la --color"
+alias ls="ls --color"
 alias ka="killall"
 alias pls="doas"
 alias cat="bat"
