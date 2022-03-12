@@ -29,6 +29,9 @@ Strength=10
 [Effect-MagicLamp]
 AnimationDuration=200
 
+[Effect-Overview]
+BorderActivate=4
+
 [Effect-PresentWindows]
 BorderActivateAll=5
 
@@ -96,7 +99,6 @@ stepVertical=50
 sizes=50,66,34,100
 
 [TabBox]
-BorderActivate=9
 LayoutName=big_icons
 
 [TabBoxAlternative]
