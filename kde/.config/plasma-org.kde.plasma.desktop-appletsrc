@@ -73,8 +73,9 @@ ToolBoxButtonY=37
 iconSize=0
 
 [Containments][37][Wallpaper][com.github.zren.inactiveblur][General]
+BlurRadius=43
 FillMode=2
-Image=file:///home/emrhnpla02/All/Pictures/Wallpaper/Slideshow/14.png
+Image=file:///home/emrhnpla02/Pictures/Wallpapers/14.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=

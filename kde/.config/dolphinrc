@@ -26,9 +26,9 @@ eDP Width 1920x1080=465
 [MainWindow]
 MenuBar=Disabled
 ToolBarsMovable=Disabled
-eDP Height 1920x1080=308
+eDP Height 1920x1080=999
 eDP Width 1920x1080=944
-eDP XPosition 1920x1080=9
+eDP XPosition 1920x1080=966
 eDP YPosition 1920x1080=72
 
 [Notification Messages]
