@@ -1,0 +1,11 @@
+[Applications][ferdi]
+Seen=true
+
+[Applications][firefox]
+Seen=true
+
+[Applications][org.qbittorrent.qBittorrent]
+Seen=true
+
+[Notifications]
+PopupTimeout=3000

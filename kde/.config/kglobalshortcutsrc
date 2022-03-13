@@ -32,6 +32,7 @@ _k_friendly_name=Custom Shortcuts Service
 {3d635d35-c528-4317-b0ce-46cccbf42d65}=Meta+S,none,RofiDrun
 {3dc509f6-936b-49c1-afbf-dc4839203fbc}=Meta+C,none,RofiCalc
 {82925203-7924-4c74-9b63-cdbeb7a4d286}=Meta+T,none,Alacritty
+{aab57f02-4025-4776-bf77-4c416df33eeb}=Print,none,Flameshot
 {ac0c7be1-404a-4f7e-af5a-6ce5a697374a}=none,none,Launch Konsole
 {c9c98f56-c063-47ee-8af0-7380d99b982d}=Meta+V,none,VSCodium
 {ca5903fe-a3de-4fe2-87ef-ad3bfa9ad817}=Meta+F,none,Firefox
@@ -337,11 +338,11 @@ show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,none,Media volume down
-mediavolumeup=none,none,Media volume up
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,none,Play media playback
+playmedia=none,,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
