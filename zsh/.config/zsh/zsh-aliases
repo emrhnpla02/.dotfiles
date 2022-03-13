@@ -105,6 +105,7 @@ alias Ninit="npm init"
 
 # Apps
 alias vw="nvim ~/All/vimwiki/index.wiki"
+alias trash-empty="sudo trash-empty"
 alias prime-run="devour prime-run"
 alias scrcpy="devour scrcpy"
 alias d="devour dolphin"
