@@ -1,7 +1,7 @@
+VSCodium/.config/VSCodium/*
+!VSCodium/.config/VSCodium/User
 !VSCodium/.config/VSCodium/User/extensions-list.txt
 VSCodium/.config/VSCodium/User/workspaceStorage
 VSCodium/.config/VSCodium/User/globalStorage
-!VSCodium/.config/VSCodium/User
-VSCodium/.config/VSCodium/*
 nvim/.config/nvim/plugged
 zsh/.config/zsh/plugins
