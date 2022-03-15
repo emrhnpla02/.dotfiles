@@ -8,3 +8,5 @@ export ZDOTDIR=$HOME/.config/zsh
 
 # pfetch config
 [ -f ~/.config/pfetch/.pfetch ] && source ~/.config/pfetch/.pfetch
+
+numlockx &
