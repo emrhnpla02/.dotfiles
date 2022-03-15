@@ -32,7 +32,6 @@ alias P="paru"
 
 
 # Git
-alias Gp-uom="git push -u origin main"
 alias Gl-o="git log --oneline"
 alias Gch="git checkout"
 alias Gsw="git switch"
@@ -104,7 +103,7 @@ alias Ninit="npm init"
 
 
 # Apps
-alias vw="nvim ~/All/vimwiki/index.wiki"
+alias vw="nvim ~/All/vimwiki/vimwiki_wiki/index.wiki"
 alias trash-empty="sudo trash-empty"
 alias prime-run="devour prime-run"
 alias scrcpy="devour scrcpy"
