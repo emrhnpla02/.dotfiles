@@ -1,0 +1,119 @@
+{
+  // Global
+  "Lorem Ipsum Dolor Sit Amet": {
+    "prefix": "lorem",
+    "body": "Lorem ipsum dolor sit amet.",
+    "description": "Lorem Ipsum Dolor Sit Amet"
+  },
+  "[JSON] Pipe Control Configuration for netcoredbg": {
+    "prefix": "netcoredbg",
+    "body": [
+      " \"pipeTransport\": {",
+      "  \"pipeProgram\": \"bash\",",
+      "  \"pipeArgs\": [\"-c\"],",
+      "  \"debuggerPath\": \"/bin/netcoredbg\"",
+      "}"
+    ],
+    "description": "[JSON] Pipe Control Configuration for netcoredbg"
+  },
+
+  // C#
+  "[C#] Using System": {
+    "prefix": "usesys",
+    "body": ["using System;"],
+    "description": "[C#] Using System"
+  },
+  "[C#] Block Namespace": {
+    "prefix": "ns",
+    "body": ["namespace ${1:MyNamespace};"],
+    "description": "[C#] Block Namespace"
+  },
+  "[C#] Program Class": {
+    "prefix": "program",
+    "body": [
+      "class Program",
+      "{",
+      "    public static void Main(string[] args)",
+      "    {",
+      "    }",
+      "}"
+    ],
+    "description": "[C#] Program Class"
+  },
+  "[C#] Console Class": {
+    "prefix": "console",
+    "body": [
+      "Console.${1|Read, ReadKey, ReadLine, Write, WriteLine, Clear|}($2);"
+    ],
+    "description": "[C#] Console Class"
+  },
+  "[C#] Console WriteLine": {
+    "prefix": "cw",
+    "body": "Console.WriteLine(\"$1\");",
+    "description": "[C#] Console WriteLine"
+  },
+
+  // Asp.Net Core
+  "[C#] Using Models": {
+    "prefix": "usemodels",
+    "body": ["using ${1:WebApp}.Models"],
+    "description": "[C#] Using Models"
+  },
+  "[C#] Using Extensions": {
+    "prefix": "useext",
+    "body": ["using ${1:App}.Extensions"],
+    "description": "[C#] Using Extensions"
+  },
+  "[C#] Razor Layout": {
+    "prefix": "layout",
+    "body": ["@{", "  Layout = _layout", "}"],
+    "description": "[C#] Razor Layout"
+  },
+  "[HTML] Add tag helpers": {
+    "prefix": "addTagHelpers",
+    "body": "@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers",
+    "description": "[HTML] Add tag helpers"
+  },
+  "[C#] Add tag helpers": {
+    "prefix": "addTagHelpers",
+    "body": "addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers",
+    "description": "[C#] Add tag helpers"
+  },
+  "[C#] MapControllerRoute": {
+    "prefix": "mcr",
+    "body": [
+      "app.MapControllerRoute(",
+      "    name: \"${1:Default}\",",
+      "    pattern: \"{controller=${2:Home}}/{action=${3:Index}}/{${4:id?}}\");"
+    ],
+    "description": "C# MapControllerRoute"
+  },
+  "[C#] MapControllerRoutePattern": {
+    "prefix": "mcrp",
+    "body": [
+      "app.MapControllerRoute(",
+      "    name: \"${1:Default}\",",
+      "    pattern: \"${2:homepage}\",",
+      "    defaults: new { controller = \"${3:Home}\", action = \"${4:Index}\" });"
+    ],
+    "description": "C# MapControllerRoutePattern"
+  },
+  "[C#] MapAreaControllerRoute": {
+    "prefix": "macr",
+    "body": [
+      "",
+      "app.MapAreaControllerRoute(",
+      "    name: \"${1:AreaName}\",",
+      "    areaName: \"${2:AreaName}\",",
+      "    pattern: \"${3:AreaName}/{controller=${4:Home}}/{action=${5:Index}}\");"
+    ],
+    "description": "[C#] MapAreaControllerRoute"
+  },
+  "[C#] Dependency Injection": {
+    "prefix": "services",
+    "body": [
+      "services.${1|AddTransient, AddScoped, AddSingleton|}<${2:TypeName}, ${3:TypeName}>();"
+    ],
+    "description": "[C#] Dependency Injection"
+  }
+}
