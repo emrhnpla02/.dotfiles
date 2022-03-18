@@ -19,16 +19,19 @@
 
   // C#
   "[C#] Using System": {
+    "scope": "csharp",
     "prefix": "usesys",
-    "body": ["using System;"],
+    "body": "using System;",
     "description": "[C#] Using System"
   },
   "[C#] Block Namespace": {
+    "scope": "csharp",
     "prefix": "ns",
-    "body": ["namespace ${1:MyNamespace};"],
+    "body": "namespace ${1:MyNamespace};",
     "description": "[C#] Block Namespace"
   },
   "[C#] Program Class": {
+    "scope": "csharp",
     "prefix": "program",
     "body": [
       "class Program",
@@ -41,6 +44,7 @@
     "description": "[C#] Program Class"
   },
   "[C#] Console Class": {
+    "scope": "csharp",
     "prefix": "console",
     "body": [
       "Console.${1|Read, ReadKey, ReadLine, Write, WriteLine, Clear|}($2);"
@@ -48,38 +52,15 @@
     "description": "[C#] Console Class"
   },
   "[C#] Console WriteLine": {
+    "scope": "csharp",
     "prefix": "cw",
-    "body": "Console.WriteLine(\"$1\");",
+    "body": "Console.WriteLine($1);",
     "description": "[C#] Console WriteLine"
   },
 
   // Asp.Net Core
-  "[C#] Using Models": {
-    "prefix": "usemodels",
-    "body": ["using ${1:WebApp}.Models"],
-    "description": "[C#] Using Models"
-  },
-  "[C#] Using Extensions": {
-    "prefix": "useext",
-    "body": ["using ${1:App}.Extensions"],
-    "description": "[C#] Using Extensions"
-  },
-  "[C#] Razor Layout": {
-    "prefix": "layout",
-    "body": ["@{", "  Layout = _layout", "}"],
-    "description": "[C#] Razor Layout"
-  },
-  "[HTML] Add tag helpers": {
-    "prefix": "addTagHelpers",
-    "body": "@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers",
-    "description": "[HTML] Add tag helpers"
-  },
-  "[C#] Add tag helpers": {
-    "prefix": "addTagHelpers",
-    "body": "addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers",
-    "description": "[C#] Add tag helpers"
-  },
   "[C#] MapControllerRoute": {
+    "scope": "csharp",
     "prefix": "mcr",
     "body": [
       "app.MapControllerRoute(",
@@ -89,6 +70,7 @@
     "description": "C# MapControllerRoute"
   },
   "[C#] MapControllerRoutePattern": {
+    "scope": "csharp",
     "prefix": "mcrp",
     "body": [
       "app.MapControllerRoute(",
@@ -99,6 +81,7 @@
     "description": "C# MapControllerRoutePattern"
   },
   "[C#] MapAreaControllerRoute": {
+    "scope": "csharp",
     "prefix": "macr",
     "body": [
       "",
@@ -110,9 +93,10 @@
     "description": "[C#] MapAreaControllerRoute"
   },
   "[C#] Dependency Injection": {
+    "scope": "csharp",
     "prefix": "services",
     "body": [
-      "services.${1|AddTransient, AddScoped, AddSingleton|}<${2:TypeName}, ${3:TypeName}>();"
+      "services.${1|AddTransient, AddScoped, AddSingleton|}<I${2:TypeName}, ${3:TypeName}>();"
     ],
     "description": "[C#] Dependency Injection"
   }
