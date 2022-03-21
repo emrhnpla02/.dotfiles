@@ -75,8 +75,8 @@ iconSize=0
 [Containments][37][Wallpaper][com.github.zren.inactiveblur][General]
 BlurRadius=43
 FillMode=2
-Image=file:///home/emrhnpla02/Pictures/Wallpapers/14.png
+Image=file:///home/emrhnpla02/.dotfiles/Wallpapers/Pictures/Wallpapers/14.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/calamares.desktop,0,desktop:/org.kde.konversation.desktop,0,desktop:/plasma-home.desktop,0,desktop:/README.txt,0,desktop:/plasma-trash.desktop,0,desktop:/OpenRC.pdf,0,desktop:/Configuration.pdf,0,desktop:/Troubleshooting.pdf,0
+screenMapping=desktop:/Configuration.pdf,0,desktop:/OpenRC.pdf,0,desktop:/calamares.desktop,0,desktop:/Troubleshooting.pdf,0,desktop:/plasma-trash.desktop,0,desktop:/README.txt,0,desktop:/plasma-home.desktop,0,desktop:/org.kde.konversation.desktop,0
