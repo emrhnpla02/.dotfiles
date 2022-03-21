@@ -96,7 +96,7 @@
     "scope": "csharp",
     "prefix": "services",
     "body": [
-      "services.${1|AddTransient, AddScoped, AddSingleton|}<I${2:TypeName}, ${3:TypeName}>();"
+      "builder.Services.${1|AddTransient, AddScoped, AddSingleton|}<I${2:TypeName}, ${3:TypeName}>();"
     ],
     "description": "[C#] Dependency Injection"
   }
