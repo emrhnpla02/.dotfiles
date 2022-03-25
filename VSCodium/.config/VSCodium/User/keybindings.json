@@ -53,11 +53,11 @@
     "command": "-gitlens.toggleZenMode"
   },
   {
-    "key": "ctrl+shift+j",
+    "key": "ctrl+shift+alt+j",
     "command": "workbench.action.nextSideBarView"
   },
   {
-    "key": "ctrl+shift+k",
+    "key": "ctrl+shift+alt+k",
     "command": "workbench.action.previousSideBarView"
   },
   {
@@ -898,5 +898,25 @@
   {
     "key": "ctrl+alt+y",
     "command": "workbench.action.openWorkspace"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
   }
 ]
