@@ -37,7 +37,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.confirmDragAndDrop": false,
-  "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "Nord Deep",
+  "workbench.colorCustomizations": {
+    "jumpy2.labelFontColor": "#FFFFFF",
+    "jumpy2.labelBackgroundColor": "#44748F"
+  },
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -45,20 +49,31 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "kite.showWelcomeNotificationOnStartup": false,
   "workbench.enableExperiments": false,
   "workbench.settings.enableNaturalLanguageSearch": false,
   "update.showReleaseNotes": false,
   "extensions.autoCheckUpdates": false,
-  "vsicons.dontShowNewVersionMessage": true,
-  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.minimap.enabled": false,
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "files.exclude": {
+    "**/.git": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/Properties": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.vscode": true
+  },
+  "cSpell.userWords": ["Blazor", "emrhnpla", "Hsts"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  }
 }
