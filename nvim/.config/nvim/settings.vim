@@ -30,6 +30,7 @@ set formatoptions-=cro                  " Stop newline continution of comments
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set background=dark
 set relativenumber
+set laststatus=3
 
 " hrsh7th/nvim-cmp
 set completeopt=menu,menuone,noselect
