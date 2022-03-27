@@ -18,6 +18,7 @@ alias dotfiles="cd ~/.dotfiles"
 
 # Package Manager & Aur Helper
 alias Ro="pacman -Qtdq | doas pacman -Rns -"
+alias Rns="doas pacman -Rns"
 alias Ss="doas pacman -Ss"
 alias Sy="doas pacman -Sy"
 alias Rs="doas pacman -Rs"
