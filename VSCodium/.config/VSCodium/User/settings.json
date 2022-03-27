@@ -45,7 +45,6 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
-  "window.zoomLevel": -1,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -68,12 +67,29 @@
     "**/Thumbs.db": true,
     "**/.vscode": true
   },
-  "cSpell.userWords": ["Blazor", "emrhnpla", "Hsts"],
+  "cSpell.userWords": [
+    "appsettings",
+    "archlinux",
+    "Blazor",
+    "dotfiles",
+    "emrhnpla",
+    "Fira",
+    "firacode",
+    "Hsts",
+    "monospace",
+    "nord",
+    "tailwindcss"
+  ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[aspnetcorerazor]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "[svg]": {
     "editor.defaultFormatter": "jock.svg"
-  }
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "vssolution.solutionExplorerIcons": "current-theme",
+  "window.zoomLevel": -1
 }
