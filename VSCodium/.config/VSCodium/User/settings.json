@@ -37,7 +37,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "explorer.confirmDragAndDrop": false,
-  "workbench.colorTheme": "Nord Deep",
+  "workbench.colorTheme": "Nord",
   "workbench.colorCustomizations": {
     "jumpy2.labelFontColor": "#FFFFFF",
     "jumpy2.labelBackgroundColor": "#44748F"
@@ -73,6 +73,7 @@
     "Blazor",
     "dotfiles",
     "emrhnpla",
+    "epfetch",
     "Fira",
     "firacode",
     "Hsts",
@@ -91,5 +92,11 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "vssolution.solutionExplorerIcons": "current-theme",
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["f"],
+      "commands": ["jumpy2.toggle"]
+    }
+  ]
 }

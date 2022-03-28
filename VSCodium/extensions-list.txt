@@ -8,7 +8,6 @@ adrianwilczynski.toggle-hidden
 adrianwilczynski.user-secrets
 alefragnani.Bookmarks
 arcticicestudio.nord-visual-studio-code
-asvetliakov.vscode-neovim
 bradlc.vscode-tailwindcss
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
@@ -34,6 +33,7 @@ formulahendry.dotnet
 formulahendry.dotnet-test-explorer
 Fudge.auto-using
 geequlim.godot-tools
+GitHub.copilot
 GitHub.vscode-pull-request-github
 hnw.vscode-auto-open-markdown-preview
 hollowtree.vue-snippets
@@ -80,6 +80,7 @@ streetsidesoftware.code-spell-checker
 sudoaugustin.tailwindcss-transpiler
 twxs.cmake
 VisualStudioExptTeam.vscodeintellicode
+vscodevim.vim
 waderyan.gitblame
 WallabyJs.quokka-vscode
 wix.vscode-import-cost
