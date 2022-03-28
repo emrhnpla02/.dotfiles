@@ -1,6 +1,8 @@
 #!/bin/sh
 
 # Config Files
+alias confvk="nvim ~/.config/VSCodium/User/keybindings.json"
+alias confvs="nvim ~/.config/VSCodium/User/settings.json"
 alias confa="nvim ~/.config/alacritty/alacritty.yml"
 alias confnm="nvim ~/.config/nvim/mappings.vim"
 alias confns="nvim ~/.config/nvim/settings.vim"
@@ -12,7 +14,9 @@ alias confza="nvim ~/.config/zsh/zsh-aliases"
 alias confze="nvim ~/.config/zsh/zsh-exports"
 alias confzp="nvim ~/.config/zsh/zsh-prompt"
 alias confn="nvim ~/.config/nvim/init.vim"
+alias confvu="cd ~/.config/VSCodium/User"
 alias confz="nvim ~/.config/zsh/.zshrc"
+alias confv="cd ~/.config/VSCodium"
 alias dotfiles="cd ~/.dotfiles"
 
 
