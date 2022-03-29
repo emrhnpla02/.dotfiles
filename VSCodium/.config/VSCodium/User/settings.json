@@ -57,15 +57,15 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
   "files.exclude": {
-    "**/.git": true,
-    "**/bin": true,
-    "**/obj": true,
-    "**/Properties": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**/.vscode": true
+    "**/.git": false,
+    "**/bin": false,
+    "**/obj": false,
+    "**/Properties": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false,
+    "**/.vscode": false
   },
   "cSpell.userWords": [
     "appsettings",
@@ -77,6 +77,7 @@
     "Fira",
     "firacode",
     "Hsts",
+    "Lemmy",
     "monospace",
     "nord",
     "tailwindcss"
@@ -92,11 +93,12 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "vssolution.solutionExplorerIcons": "current-theme",
-  "window.zoomLevel": -1,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["f"],
       "commands": ["jumpy2.toggle"]
     }
-  ]
+  ],
+  "window.zoomLevel": -1,
+  "svg.preview.mode": "svg"
 }
