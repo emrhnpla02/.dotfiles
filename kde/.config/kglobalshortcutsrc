@@ -11,7 +11,7 @@ switch-to-activity-ca7fd376-0445-4300-8e17-1181b07bc8e5=none,none,Switch to acti
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to English (US)=none,none,Switch keyboard layout to English (US)
 Switch keyboard layout to Turkish=none,none,Switch keyboard layout to Turkish
-Switch to Next Keyboard Layout=Ctrl+Alt+L,none,Switch to Next Keyboard Layout
+Switch to Next Keyboard Layout=Meta+Alt+L,none,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
 [bismuth]
