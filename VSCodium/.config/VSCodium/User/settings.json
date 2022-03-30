@@ -40,7 +40,10 @@
   "workbench.colorTheme": "Nord",
   "workbench.colorCustomizations": {
     "jumpy2.labelFontColor": "#FFFFFF",
-    "jumpy2.labelBackgroundColor": "#44748F"
+    "jumpy2.labelBackgroundColor": "#44748F",
+    "statusBar.background": "#2D5E8D",
+    "statusBar.noFolderBackground": "#2D5E8D",
+    "statusBar.debuggingBackground": "#2D5E8D"
   },
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -57,15 +60,15 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
   "files.exclude": {
-    "**/.git": false,
-    "**/bin": false,
-    "**/obj": false,
-    "**/Properties": false,
-    "**/.hg": false,
-    "**/CVS": false,
-    "**/.DS_Store": false,
-    "**/Thumbs.db": false,
-    "**/.vscode": false
+    "**/.git": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/Properties": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.vscode": true
   },
   "cSpell.userWords": [
     "appsettings",
@@ -93,6 +96,17 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "vssolution.solutionExplorerIcons": "current-theme",
+  "vim.leader": "<",
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.enableNeovim": true,
+  "vim.neovimPath": "/usr/bin/nvim",
+  "vim.visualstar": true,
+  "vim.easymotion": true,
+  "vim.easymotionMarkerBackgroundColor": "#44748F",
+  "vim.easymotionMarkerForegroundColorOneChar": "#FFFFFF",
+  "vim.easymotionMarkerForegroundColorTwoCharFirst": "#44748F",
+  "vim.easymotionMarkerForegroundColorTwoCharSecond": "#FFFFFF",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["f"],
