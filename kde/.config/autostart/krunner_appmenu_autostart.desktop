@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=krunner_appmenu
+Comment=Autostart entry for krunner_appmenu
+Keywords=Runner;Krunner
+Categories=Utilities
+Exec="/home/emrhnpla02/.local/share/krunner-sources/ANZnSl-krunner-appmenu/krunner_appmenu.py"
+Icon=python
+StartupNotify=false
