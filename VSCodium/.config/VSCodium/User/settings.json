@@ -40,10 +40,7 @@
   "workbench.colorTheme": "Nord",
   "workbench.colorCustomizations": {
     "jumpy2.labelFontColor": "#FFFFFF",
-    "jumpy2.labelBackgroundColor": "#44748F",
-    "statusBar.background": "#2D5E8D",
-    "statusBar.noFolderBackground": "#2D5E8D",
-    "statusBar.debuggingBackground": "#2D5E8D"
+    "jumpy2.labelBackgroundColor": "#44748F"
   },
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
@@ -73,6 +70,7 @@
   "cSpell.userWords": [
     "appsettings",
     "archlinux",
+    "aspnetcore",
     "Blazor",
     "dotfiles",
     "emrhnpla",
@@ -83,7 +81,8 @@
     "Lemmy",
     "monospace",
     "nord",
-    "tailwindcss"
+    "tailwindcss",
+    "vuejs"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[aspnetcorerazor]": {
@@ -113,6 +112,6 @@
       "commands": ["jumpy2.toggle"]
     }
   ],
-  "window.zoomLevel": -1,
-  "svg.preview.mode": "svg"
+  "svg.preview.mode": "svg",
+  "window.zoomLevel": -1
 }
