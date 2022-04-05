@@ -83,7 +83,7 @@ local mappings = {
 	["q"] = { "<cmd>q!<CR>", "Quit" },
 	["a"] = { "<cmd>Alpha<CR>", "Alpha" },
 	["/"] = { '<cmd>lua require("Comment.api").toggle_current_linewise()<CR>', "Comment" },
-	["r"] = { '<cmd>lua require("regexplainer").show{ display = "popup" }<CR>', "Comment" },
+	["r"] = { '<cmd>lua require("regexplainer").show{ display = "popup" }<CR>', "Regexplainer" },
 	["e"] = { "<cmd>NvimTreeToggle<CR>", "Explorer" },
 	["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
 	["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },

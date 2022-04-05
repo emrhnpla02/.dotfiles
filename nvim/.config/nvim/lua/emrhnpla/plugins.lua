@@ -93,7 +93,7 @@ return packer.startup(function(use)
 		},
 	})
 
-	-- Treesitter & Spellsitter
+	-- Treesitter
 	use({
 		{
 			"nvim-treesitter/nvim-treesitter",
@@ -101,7 +101,6 @@ return packer.startup(function(use)
 		},
 		"p00f/nvim-ts-rainbow",
 		"windwp/nvim-ts-autotag",
-		"lewis6991/spellsitter.nvim",
 	})
 
 	-- Autopairs
