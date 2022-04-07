@@ -95,7 +95,7 @@
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "vssolution.solutionExplorerIcons": "current-theme",
-  "vim.leader": "<",
+  "vim.leader": " ",
   "vim.useSystemClipboard": true,
   "vim.hlsearch": true,
   "vim.enableNeovim": true,
@@ -112,6 +112,6 @@
       "commands": ["jumpy2.toggle"]
     }
   ],
-  "svg.preview.mode": "svg",
+  "svg.preview.mode": "img",
   "window.zoomLevel": -1
 }
