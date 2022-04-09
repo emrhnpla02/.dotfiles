@@ -4,5 +4,6 @@ VSCodium/.config/VSCodium/*
 VSCodium/.config/VSCodium/User/workspaceStorage
 VSCodium/.config/VSCodium/User/globalStorage
 VSCodium/.config/VSCodium/User/History
+kde/.local/share/icons/hicolor/
 nvim/.config/nvim/plugin
 zsh/.config/zsh/plugins
