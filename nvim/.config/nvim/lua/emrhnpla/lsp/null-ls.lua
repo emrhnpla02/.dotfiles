@@ -13,7 +13,7 @@ local code_actions = null_ls.builtins.code_actions
 null_ls.setup({
 	debug = false,
 	sources = {
-		formatting.prettierd.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
+		formatting.prettierd,
 		diagnostics.eslint_d,
 		code_actions.eslint_d,
 		formatting.stylua,
