@@ -44,6 +44,11 @@ keymap("n", "<C-q>", ":bdelete!<CR>", opts)
 keymap("n", "<C-s>", ":w<CR>", opts)
 
 -- Insert --
+
+-- Alternate way to quit or save
+keymap("i", "<C-q>", "<cmd>:bdelete!<CR>", opts)
+keymap("i", "<C-s>", "<cmd>:w<CR>", opts)
+
 -- Press jk or kj fast to enter
 keymap("i", "jk", "<ESC>", opts)
 keymap("i", "kj", "<ESC>", opts)
@@ -70,8 +75,14 @@ keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_opts)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
--- null-ls
+-- Plugins --
+-- null-ls.nvim
 keymap("n", "<C-f>", "<cmd>lua vim.lsp.buf.formatting()<cr>", opts)
+keymap("i", "<C-f>", "<cmd>lua vim.lsp.buf.formatting()<cr>", opts)
 
--- hop
+-- hop.nvim
 keymap("n", "f", "<cmd>lua require'hop'.hint_words()<cr>", opts)
+
+-- Comment.nvim
+keymap("n", "<C-w>", "<cmd>lua require('Comment.api').toggle_current_linewise()<cr>", opts)
+keymap("v", "<C-w>", "<esc><cmd>lua require('Comment.api').toggle_linewise_op(vim.fn.visualmode())<cr>", opts)

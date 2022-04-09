@@ -17,7 +17,7 @@ local setup = {
 			operators = false, -- adds help for operators like d, y, ... and registers them for motion / text object completion
 			motions = false, -- adds help for motions
 			text_objects = false, -- help for text objects triggered after entering an operator
-			windows = true, -- default bindings on <c-w>
+			windows = false, -- default bindings on <c-w>
 			nav = true, -- misc bindings to work with windows
 			z = true, -- bindings for folds, spelling and others prefixed with z
 			g = true, -- bindings for prefixed with g
@@ -79,7 +79,6 @@ local opts = {
 }
 
 local mappings = {
-	["w"] = { "<cmd>w!<CR>", "Save" },
 	["q"] = { "<cmd>q!<CR>", "Quit" },
 	["a"] = { "<cmd>Alpha<CR>", "Alpha" },
 	["/"] = { '<cmd>lua require("Comment.api").toggle_current_linewise()<CR>', "Comment" },
@@ -98,6 +97,11 @@ local mappings = {
 	["m"] = { "<cmd>Telescope media_files<cr>", "Find Media Files" },
 	["F"] = { "<cmd>Telescope live_grep<cr>", "Find Text" },
 	["P"] = { "<cmd>Telescope projects<cr>", "Projects" },
+	["o"] = { "<cmd>Telescope oldfiles<cr>", "Old Files" },
+	w = {
+		s = { "<cmd>split<CR>", "Split Window" },
+		v = { "<cmd>vsplit<CR>", "Split Window Vertically" },
+	},
 	p = {
 		name = "Packer",
 		c = { "<cmd>PackerCompile<cr>", "Compile" },
@@ -116,48 +120,26 @@ local mappings = {
 		r = { "<cmd>lua require 'gitsigns'.reset_hunk()<cr>", "Reset Hunk" },
 		R = { "<cmd>lua require 'gitsigns'.reset_buffer()<cr>", "Reset Buffer" },
 		s = { "<cmd>lua require 'gitsigns'.stage_hunk()<cr>", "Stage Hunk" },
-		u = {
-			"<cmd>lua require 'gitsigns'.undo_stage_hunk()<cr>",
-			"Undo Stage Hunk",
-		},
+		u = { "<cmd>lua require 'gitsigns'.undo_stage_hunk()<cr>", "Undo Stage Hunk" },
 		o = { "<cmd>Telescope git_status<cr>", "Open changed file" },
 		b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
 		c = { "<cmd>Telescope git_commits<cr>", "Checkout commit" },
-		d = {
-			"<cmd>Gitsigns diffthis HEAD<cr>",
-			"Diff",
-		},
+		d = { "<cmd>Gitsigns diffthis HEAD<cr>", "Diff" },
 	},
 	l = {
 		name = "LSP",
-		a = { "<cmd>lua vim.lsp.buf.code_action()<cr>", "Code Action" },
-		d = {
-			"<cmd>Telescope lsp_document_diagnostics<cr>",
-			"Document Diagnostics",
-		},
-		w = {
-			"<cmd>Telescope lsp_workspace_diagnostics<cr>",
-			"Workspace Diagnostics",
-		},
+		h = { "<cmd>lua vim.lsp.buf.hover()<CR>", "Hover" },
+		r = { "<cmd>Telescope lsp_references<cr>", "References" },
+		a = { "<cmd>Telescope lsp_code_actions<cr>", "Code Actions" },
+		i = { "<cmd>Telescope lsp_implementations<cr>", "Implementations" },
+		t = { "<cmd>Telescope lsp_type_definitions<cr>", "Type Definitions" },
 		f = { "<cmd>lua vim.lsp.buf.formatting()<cr>", "Format" },
-		i = { "<cmd>LspInfo<cr>", "Info" },
-		I = { "<cmd>LspInstallInfo<cr>", "Installer Info" },
-		j = {
-			"<cmd>lua vim.lsp.diagnostic.goto_next()<CR>",
-			"Next Diagnostic",
-		},
-		k = {
-			"<cmd>lua vim.lsp.diagnostic.goto_prev()<cr>",
-			"Prev Diagnostic",
-		},
-		l = { "<cmd>lua vim.lsp.codelens.run()<cr>", "CodeLens Action" },
-		q = { "<cmd>lua vim.lsp.diagnostic.set_loclist()<cr>", "Quickfix" },
-		r = { "<cmd>lua vim.lsp.buf.rename()<cr>", "Rename" },
+		l = { "<cmd>lua vim.diagnostic.open_float({ border = 'rounded' })", "Float Diagnostic" },
+		d = { "<cmd>Telescope lsp_definitions<cr>", "Definitions" },
+		D = { "<cmd>Telescope diagnostics<cr>", "Diagnostics" },
 		s = { "<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols" },
-		S = {
-			"<cmd>Telescope lsp_dynamic_workspace_symbols<cr>",
-			"Workspace Symbols",
-		},
+		S = { "<cmd>Telescope lsp_dynamic_workspace_symbols<cr>", "Workspace Symbols" },
+		w = { "<cmd>Telescope lsp_workspace_diagnostics<cr>", "Workspace Diagnostics" },
 	},
 	d = {
 		name = "DAP",
@@ -172,6 +154,7 @@ local mappings = {
 		b = { "<cmd>Telescope git_branches<cr>", "Checkout branch" },
 		c = { "<cmd>Telescope colorscheme<cr>", "Colorscheme" },
 		h = { "<cmd>Telescope help_tags<cr>", "Find Help" },
+		p = { "<cmd>Telescope projects<cr>", "Projects" },
 		M = { "<cmd>Telescope man_pages<cr>", "Man Pages" },
 		r = { "<cmd>Telescope oldfiles<cr>", "Open Recent File" },
 		R = { "<cmd>Telescope registers<cr>", "Registers" },
@@ -184,6 +167,7 @@ local mappings = {
 		u = { "<cmd>lua _NCDU_TOGGLE()<cr>", "NCDU" },
 		t = { "<cmd>lua _HTOP_TOGGLE()<cr>", "Htop" },
 		p = { "<cmd>lua _PYTHON_TOGGLE()<cr>", "Python" },
+		g = { "<cmd>lua _LAZYGIT_TOGGLE()<cr>", "Lazygit" },
 		f = { "<cmd>ToggleTerm direction=float<cr>", "Float" },
 		h = { "<cmd>ToggleTerm size=10 direction=horizontal<cr>", "Horizontal" },
 		v = { "<cmd>ToggleTerm size=80 direction=vertical<cr>", "Vertical" },
