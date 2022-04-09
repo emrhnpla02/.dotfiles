@@ -30,4 +30,5 @@ require'emrhnpla.hlslens'
 require'emrhnpla.iswap'
 require'emrhnpla.numb'
 require'emrhnpla.regexplainer'
+require'emrhnpla.symbols-outline'
 --require'emrhnpla.tmux -- TODO: update tmux config files

@@ -142,6 +142,9 @@ return packer.startup(function(use)
 	-- Indentline
 	use("lukas-reineke/indent-blankline.nvim")
 
+	-- Symbols-Outline
+  use("simrat39/symbols-outline.nvim")
+
 	-- Toggleterm
 	use("akinsho/toggleterm.nvim")
 
