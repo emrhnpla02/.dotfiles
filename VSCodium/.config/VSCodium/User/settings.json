@@ -75,13 +75,16 @@
     "dotfiles",
     "emrhnpla",
     "epfetch",
+    "figcaption",
     "Fira",
     "firacode",
     "Hsts",
     "Lemmy",
     "monospace",
     "nord",
+    "pacman",
     "tailwindcss",
+    "udemy",
     "vuejs"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -113,5 +116,6 @@
     }
   ],
   "svg.preview.mode": "img",
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "cSpell.enableFiletypes": ["aspnetcorerazor"]
 }
