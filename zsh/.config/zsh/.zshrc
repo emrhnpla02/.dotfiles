@@ -34,8 +34,6 @@ zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
 zsh_add_plugin "hlissner/zsh-autopair"
 zsh_add_completion "esc/conda-zsh-completion" false
 
-bindkey -s '^o' 'ranger^M'
-bindkey -s '^s' 'ncdu^M'
 bindkey '^[[P' delete-char
 bindkey "^p" up-line-or-beginning-search
 bindkey "^n" down-line-or-beginning-search
