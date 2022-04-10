@@ -39,6 +39,13 @@ end
 vim.cmd("autocmd! TermOpen term://* lua set_terminal_keymaps()")
 
 local Terminal = require("toggleterm.terminal").Terminal
+
+local tmux = Terminal:new({ cmd = "tmux", hidden = true })
+
+function _TMUX_TOGGLE()
+	tmux:toggle()
+end
+
 local lazygit = Terminal:new({ cmd = "lazygit", hidden = true })
 
 function _LAZYGIT_TOGGLE()
