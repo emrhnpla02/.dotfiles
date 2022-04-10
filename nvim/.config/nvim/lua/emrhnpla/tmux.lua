@@ -17,6 +17,6 @@ tmux.setup({
 	},
 	resize = {
 		-- enables default keybindings (A-hjkl) for normal mode
-		enable_default_keybindings = true,
+		enable_default_keybindings = false,
 	},
 })

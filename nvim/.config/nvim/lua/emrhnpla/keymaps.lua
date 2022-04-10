@@ -86,3 +86,9 @@ keymap("n", "f", "<cmd>lua require'hop'.hint_words()<cr>", opts)
 -- Comment.nvim
 keymap("n", "<C-w>", "<cmd>lua require('Comment.api').toggle_current_linewise()<cr>", opts)
 keymap("v", "<C-w>", "<esc><cmd>lua require('Comment.api').toggle_linewise_op(vim.fn.visualmode())<cr>", opts)
+
+-- tmux.nvim
+keymap("n", "<C-A-h>", "<cmd>lua require('tmux').resize_left()<cr>", opts)
+keymap("n", "<C-A-j>", "<cmd>lua require('tmux').resize_bottom()<cr>", opts)
+keymap("n", "<C-A-k>", "<cmd>lua require('tmux').resize_top()<cr>", opts)
+keymap("n", "<C-A-l>", "<cmd>lua require('tmux').resize_right()<cr>", opts)
