@@ -1,5 +1,5 @@
 [$Version]
-update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category
+update_info=bismuth_shortcuts_category.upd:bismuth-shortcuts-category,bismuth_shortcuts_from_kwin.upd:bismuth-shortcuts-from-kwin
 
 [ActivityManager]
 _k_friendly_name=Activity Manager
@@ -39,17 +39,17 @@ move_window_to_upper_pos=Meta+Shift+K,Meta+Shift+K,Move Window Up
 next_layout=Meta+\\\\,Meta+\\\\,Switch to the Next Layout
 prev_layout=Meta+',Meta+|,Switch to the Previous Layout
 push_window_to_master=Meta+W,Meta+Return,Push Active Window to Master Area
-rotate=Meta+Shift+R,Meta+R,Rotate
+rotate=,Meta+R,Rotate
 rotate_part=none,Meta+Shift+R,Rotate Part
-rotate_reverse=none,,Rotate (Reverse)
-toggle_float_layout=Meta+Alt+F,Meta+Shift+F,Toggle Floating Layout
-toggle_monocle_layout=Meta+Alt+M,Meta+M,Toggle Monocle Layout
+rotate_reverse=Meta+Ctrl+R,,Rotate (Reverse)
+toggle_float_layout=none,Meta+Shift+F,Toggle Floating Layout
+toggle_monocle_layout=none,Meta+M,Toggle Monocle Layout
 toggle_quarter_layout=none,,Toggle Quarter Layout
 toggle_spiral_layout=none,,Toggle Spiral Layout
 toggle_spread_layout=none,,Toggle Spread Layout
 toggle_stair_layout=none,,Toggle Stair Layout
 toggle_three_column_layout=none,,Toggle Three Column Layout
-toggle_tile_layout=Meta+Alt+T,Meta+T,Toggle Tile Layout
+toggle_tile_layout=none,Meta+T,Toggle Tile Layout
 toggle_window_floating=Meta+Ctrl+F,Meta+F,Toggle Active Window Floating
 
 [kaccess]
@@ -78,7 +78,7 @@ _k_friendly_name=Custom Shortcuts Service
 {c9c98f56-c063-47ee-8af0-7380d99b982d}=Meta+V,none,VSCodium
 {ca5903fe-a3de-4fe2-87ef-ad3bfa9ad817}=Meta+F,none,Firefox
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
-{d62b9556-070e-4e53-aee5-3bb4f8c6d242}=Meta+R,none,RofiRun
+{d62b9556-070e-4e53-aee5-3bb4f8c6d242}=none,none,RofiRun
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -278,41 +278,6 @@ Window to Screen 5=none,,Window to Screen 5
 Window to Screen 6=none,,Window to Screen 6
 Window to Screen 7=none,,Window to Screen 7
 _k_friendly_name=KWin
-bismuth_decrease_master_size=none,none,Bismuth: Decrease Master Area Size
-bismuth_decrease_master_win_count=none,none,Bismuth: Decrease Master Area Window Count
-bismuth_decrease_window_height=none,none,Bismuth: Decrease Window Height
-bismuth_decrease_window_width=none,none,Bismuth: Decrease Window Width
-bismuth_focus_bottom_window=none,none,Bismuth: Focus Bottom Window
-bismuth_focus_left_window=none,none,Bismuth: Focus Left Window
-bismuth_focus_next_window=none,none,Bismuth: Focus Next Window
-bismuth_focus_prev_window=none,none,Bismuth: Focus Previous Window
-bismuth_focus_right_window=none,none,Bismuth: Focus Right Window
-bismuth_focus_upper_window=none,none,Bismuth: Focus Upper Window
-bismuth_increase_master_size=none,none,Bismuth: Increase Master Area Size
-bismuth_increase_master_win_count=none,none,Bismuth: Increase Master Area Window Count
-bismuth_increase_window_height=none,none,Bismuth: Increase Window Height
-bismuth_increase_window_width=none,none,Bismuth: Increase Window Width
-bismuth_move_window_to_bottom_pos=none,none,Bismuth: Move Window Down
-bismuth_move_window_to_left_pos=none,none,Bismuth: Move Window Left
-bismuth_move_window_to_next_pos=none,none,Bismuth: Move Window to the Next Position
-bismuth_move_window_to_prev_pos=none,none,Bismuth: Move Window to the Previous Position
-bismuth_move_window_to_right_pos=none,none,Bismuth: Move Window Right
-bismuth_move_window_to_upper_pos=none,none,Bismuth: Move Window Up
-bismuth_next_layout=none,none,Bismuth: Switch to the Next Layout
-bismuth_prev_layout=none,none,Bismuth: Switch to the Previous Layout
-bismuth_push_window_to_master=none,none,Bismuth: Push Active Window to Master Area
-bismuth_rotate=none,none,Bismuth: Rotate
-bismuth_rotate_part=none,none,Bismuth: Rotate Part
-bismuth_rotate_reverse=none,none,Bismuth: Rotate (Reverse)
-bismuth_toggle_float_layout=none,none,Bismuth: Toggle Floating Layout
-bismuth_toggle_monocle_layout=none,none,Bismuth: Toggle Monocle Layout
-bismuth_toggle_quarter_layout=none,none,Bismuth: Toggle Quarter Layout
-bismuth_toggle_spiral_layout=none,none,Bismuth: Toggle Spiral Layout
-bismuth_toggle_spread_layout=none,none,Bismuth: Toggle Spread Layout
-bismuth_toggle_stair_layout=none,none,Bismuth: Toggle Stair Layout
-bismuth_toggle_three_column_layout=none,none,Bismuth: Toggle Three Column Layout
-bismuth_toggle_tile_layout=none,none,Bismuth: Toggle Tile Layout
-bismuth_toggle_window_floating=none,none,Bismuth: Toggle Active Window Floating
 center=Meta+Ctrl+C,none,Yanjing: Center or cyclic resize window
 center-ymax=none,none,Yanjing: Vertically maximize and center or cyclic resize window
 left=none,none,Yanjing: Flush or cyclic resize window to left edge of screen
@@ -404,10 +369,6 @@ _launch=none,none,Launch Info Center
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents
 _k_friendly_name=KRunner
 _launch=Meta+Return\tSearch\tAlt+Space\tAlt+F2,Alt+Space\tAlt+F2\tSearch,KRunner
-
-[org.kde.kuserfeedback-console.desktop]
-_k_friendly_name=UserFeedback Console
-_launch=none,none,Launch UserFeedback Console
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
