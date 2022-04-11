@@ -128,6 +128,7 @@ return packer.startup(function(use)
 	use({
 		{
 			"akinsho/bufferline.nvim",
+			tag = "*",
 			requires = "kyazdani42/nvim-web-devicons",
 		},
 		"famiu/bufdelete.nvim",
@@ -143,7 +144,7 @@ return packer.startup(function(use)
 	use("lukas-reineke/indent-blankline.nvim")
 
 	-- Symbols-Outline
-  use("simrat39/symbols-outline.nvim")
+	use("simrat39/symbols-outline.nvim")
 
 	-- Toggleterm
 	use("akinsho/toggleterm.nvim")
