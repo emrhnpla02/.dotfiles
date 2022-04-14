@@ -47,6 +47,9 @@ return packer.startup(function(use)
 	-- Transparency
 	use("xiyaowong/nvim-transparent")
 
+	-- Cursor flashing
+	use("rainbowhxch/beacon.nvim")
+
 	-- Completion & Snippets
 	use({
 		"hrsh7th/nvim-cmp",
