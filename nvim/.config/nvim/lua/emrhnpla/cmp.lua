@@ -112,9 +112,12 @@ cmp.setup({
 			vim_item.menu = ({
 				nvim_lsp = "[LSP]",
 				nvim_lua = "[LUA]",
+				npm = "[NPM]",
 				luasnip = "[Snippet]",
 				buffer = "[Buffer]",
 				path = "[Path]",
+				emoji = "[Emoji]",
+				calc = "[Calculator]",
 			})[entry.source.name]
 			return vim_item
 		end,
@@ -124,7 +127,10 @@ cmp.setup({
 		{ name = "nvim_lua" },
 		{ name = "luasnip" },
 		{ name = "buffer" },
+		{ name = "emoji" },
 		{ name = "path" },
+		{ name = "calc" },
+		{ name = "npm", keyword_length = 4 },
 	},
 	confirm_opts = {
 		behavior = cmp.ConfirmBehavior.Replace,
