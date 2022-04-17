@@ -84,6 +84,7 @@ local mappings = {
 	["/"] = { '<cmd>lua require("Comment.api").toggle_current_linewise()<CR>', "Comment" },
 	["r"] = { '<cmd>lua require("regexplainer").show{ display = "popup" }<CR>', "Regexplainer" },
 	["e"] = { "<cmd>NvimTreeToggle<CR>", "Explorer" },
+	["o"] = { "<cmd>SymbolsOutline<CR>", "Symbols" },
 	["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
 	["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
 	["b"] = {
@@ -97,7 +98,6 @@ local mappings = {
 	["m"] = { "<cmd>Telescope media_files<cr>", "Find Media Files" },
 	["F"] = { "<cmd>Telescope live_grep<cr>", "Find Text" },
 	["P"] = { "<cmd>Telescope projects<cr>", "Projects" },
-	["o"] = { "<cmd>Telescope oldfiles<cr>", "Old Files" },
 	w = {
 		s = { "<cmd>split<CR>", "Split Window" },
 		v = { "<cmd>vsplit<CR>", "Split Window Vertically" },

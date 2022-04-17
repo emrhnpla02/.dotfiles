@@ -92,3 +92,6 @@ keymap("n", "<C-A-h>", "<cmd>lua require('tmux').resize_left()<cr>", opts)
 keymap("n", "<C-A-j>", "<cmd>lua require('tmux').resize_bottom()<cr>", opts)
 keymap("n", "<C-A-k>", "<cmd>lua require('tmux').resize_top()<cr>", opts)
 keymap("n", "<C-A-l>", "<cmd>lua require('tmux').resize_right()<cr>", opts)
+
+-- Symbols-outline.nvim
+keymap("n", "<C-o>", "<cmd>SymbolsOutline<cr>", opts)
