@@ -12,6 +12,6 @@ beacon.setup({
 	focus_gained = false,
 	shrink = true,
 	timeout = 500,
-	ignore_buffers = {},
+	ignore_buffers = { "OUTLINE"  },
 	ignore_filetypes = {},
 })
