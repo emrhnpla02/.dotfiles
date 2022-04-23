@@ -112,6 +112,9 @@ return packer.startup(function(use)
 		"windwp/nvim-ts-autotag",
 	})
 
+	-- ReactJS
+	use("napmn/react-extract.nvim")
+
 	-- Autopairs
 	use("windwp/nvim-autopairs")
 
