@@ -83,7 +83,7 @@ return packer.startup(function(use)
 	-- Dap
 	use({
 		"mfussenegger/nvim-dap",
-		"Pocco81/DAPInstall.nvim",
+		"rcarriga/nvim-dap-ui",
 	})
 
 	-- Telescope

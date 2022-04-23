@@ -3,16 +3,14 @@ if not status_ok then
 	return
 end
 
+vim.fn.sign_define("DapBreakpoint", { text = "", texthl = "", linehl = "", numhl = "" })
+vim.fn.sign_define("DapStopped", { text = "", texthl = "", linehl = "", numhl = "" })
+
+-- Javascript/Node
 dap.adapters.node2 = {
 	type = "executable",
 	command = "node",
-	args = { os.getenv("HOME") .. "/dev/microsoft/vscode-node-debug2/out/src/nodeDebug.js" },
-}
-
-dap.adapters.coreclr = {
-	type = "executable",
-	command = "/path/to/dotnet/netcoredbg/netcoredbg",
-	args = { "--interpreter=vscode" },
+	args = { os.getenv("HOME") .. "/.config/dap/vscode-node-debug2/out/src/nodeDebug.js" },
 }
 
 dap.configurations.javascript = {
@@ -33,6 +31,30 @@ dap.configurations.javascript = {
 		request = "attach",
 		processId = require("dap.utils").pick_process,
 	},
+}
+
+-- Javascript/Firefox
+dap.adapters.firefox = {
+	type = "executable",
+	command = "node",
+	args = { os.getenv("HOME") .. "/.config/dap/vscode-firefox-debug/dist/adapter.bundle.js" },
+}
+
+dap.configurations.typescript = {
+	name = "Debug with Firefox",
+	type = "firefox",
+	request = "launch",
+	reAttach = true,
+	url = "http://localhost:3000",
+	webRoot = "${workspaceFolder}",
+	firefoxExecutable = "/usr/bin/firefox",
+}
+
+-- .NET
+dap.adapters.coreclr = {
+	type = "executable",
+	command = "/usr/bin/netcoredbg",
+	args = { "--interpreter=vscode" },
 }
 
 dap.configurations.cs = {

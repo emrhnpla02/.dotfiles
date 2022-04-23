@@ -81,8 +81,8 @@ local opts = {
 local mappings = {
 	["q"] = { "<cmd>q!<CR>", "Quit" },
 	["a"] = { "<cmd>Alpha<CR>", "Alpha" },
-	["/"] = { '<cmd>lua require("Comment.api").toggle_current_linewise()<CR>', "Comment" },
-	["r"] = { '<cmd>lua require("regexplainer").show{ display = "popup" }<CR>', "Regexplainer" },
+	["/"] = { "<cmd>lua require('Comment.api').toggle_current_linewise()<CR>", "Comment" },
+	["r"] = { "<cmd>lua require('react-extract').extract_to_new_file()<CR>", "Extract React Component" },
 	["e"] = { "<cmd>NvimTreeToggle<CR>", "Explorer" },
 	["o"] = { "<cmd>SymbolsOutline<CR>", "Symbols" },
 	["c"] = { "<cmd>Bdelete!<CR>", "Close Buffer" },
@@ -145,9 +145,22 @@ local mappings = {
 		name = "DAP",
 		b = { "<cmd>lua require('dap').toggle_breakpoint()<cr>", "Toggle breakpoint" },
 		c = { "<cmd>lua require('dap').continue()<cr>", "Continue" },
-		o = { "<cmd>lua require('dap').step_over()<cr>", "Step over" },
-		i = { "<cmd>lua require('dap').step_into()<cr>", "Step into" },
-		I = { "<cmd>lua require('dap').repl.open()<cr>", "Inspect" },
+		k = { "<cmd>lua require('dap').step_out()<cr>", "Step out" },
+		l = { "<cmd>lua require('dap').step_into()<cr>", "Step into" },
+		j = { "<cmd>lua require('dap').step_over()<cr>", "Step over" },
+		_ = { "<cmd>lua require('dap').run_last()<cr>", "Run last" },
+		u = { "<cmd>lua require('dapui').toggle()<cr>", "DAP UI" },
+		s = { "<cmd>lua require('dapui').float_element('scopes')<cr>", "Scopes" },
+		S = { "<cmd>lua require('dapui').float_element('stacks')<cr>", "Stacks" },
+		w = { "<cmd>lua require('dapui').float_element('watches')<cr>", "Watches" },
+		B = { "<cmd>lua require('dapui').float_element('breakpoints')<cr>", "Breakpoints" },
+		r = { "<cmd>lua require('dapui').float_element('repl')<cr>", "Repl" },
+		i = {
+			"<cmd>lua require('dap.ui.variables').hover(function () return vim.fn.expand('<cexpr>') end)<cr>",
+			"Hover",
+		},
+		I = { "<cmd>lua require('dap').repl.open({}, 'vsplit')<cr>", "Inspect" },
+		e = { "<cmd>lua require('dap').set_exception_breakpoints({'all'})<cr>", "Set exception breakpoints" },
 	},
 	s = {
 		name = "Search",
@@ -184,6 +197,13 @@ local vopts = {
 }
 local vmappings = {
 	["/"] = { '<ESC><CMD>lua require("Comment.api").toggle_linewise_op(vim.fn.visualmode())<CR>', "Comment" },
+	d = {
+		name = "DAP",
+		i = {
+			"<cmd>lua require('dap.ui.variables').visual_hover()<cr>",
+			"Visual Hover",
+		},
+	},
 }
 
 which_key.setup(setup)

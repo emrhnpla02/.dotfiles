@@ -76,6 +76,11 @@ keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_opts)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_opts)
 
 -- Plugins --
+-- nvim-dap
+keymap("n", "<C-b>", "<cmd>lua require('dap').toggle_breakpoint()<CR>", opts)
+keymap("i", "<C-b>", "<cmd>lua require('dap').toggle_breakpoint()<CR>", opts)
+keymap("n", "<C-r>", "<cmd>lua require('dap').continue()<CR>", opts)
+
 -- null-ls.nvim
 keymap("n", "<C-f>", "<cmd>lua vim.lsp.buf.formatting()<cr>", opts)
 keymap("i", "<C-f>", "<cmd>lua vim.lsp.buf.formatting()<cr>", opts)

@@ -1,2 +1,2 @@
-require("emrhnpla.dap.dap-installer")
 require("emrhnpla.dap.dap")
+require("emrhnpla.dap.dap-ui")
