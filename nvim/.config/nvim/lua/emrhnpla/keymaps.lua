@@ -87,6 +87,7 @@ keymap("i", "<C-f>", "<cmd>lua vim.lsp.buf.formatting()<cr>", opts)
 
 -- hop.nvim
 keymap("n", "f", "<cmd>lua require'hop'.hint_words()<cr>", opts)
+keymap("v", "f", "<cmd>lua require'hop'.hint_words()<cr>", opts)
 
 -- Comment.nvim
 keymap("n", "<C-w>", "<cmd>lua require('Comment.api').toggle_current_linewise()<cr>", opts)
