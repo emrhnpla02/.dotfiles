@@ -82,7 +82,10 @@ local mappings = {
 	["q"] = { "<cmd>q!<CR>", "Quit" },
 	["a"] = { "<cmd>Alpha<CR>", "Alpha" },
 	["c"] = { "<cmd>lua require('Comment.api').toggle_current_linewise()<CR>", "Comment" },
-	["r"] = { "<cmd>lua require('react-extract').extract_to_new_file()<CR>", "Extract React Component" },
+	["r"] = {
+		"<cmd>lua require('regexplainer').show{display = 'popup', popup={border = {padding = { 1, 2 }, style = 'solid'}}}<CR>",
+		"Regex Explainer",
+	},
 	["e"] = { "<cmd>NvimTreeToggle<CR>", "Explorer" },
 	["o"] = { "<cmd>SymbolsOutline<CR>", "Symbols" },
 	["h"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
@@ -196,6 +199,7 @@ local vopts = {
 }
 local vmappings = {
 	["/"] = { '<ESC><CMD>lua require("Comment.api").toggle_linewise_op(vim.fn.visualmode())<CR>', "Comment" },
+	["r"] = { "<cmd>lua require('react-extract').extract_to_new_file()<CR>", "Extract React Component" },
 	d = {
 		name = "DAP",
 		i = {
