@@ -94,7 +94,7 @@ local mappings = {
 		"Buffers",
 	},
 	["f"] = {
-		"<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>",
+		"<cmd>lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false, hidden=true})<cr>",
 		"Find files",
 	},
 	["m"] = { "<cmd>Telescope media_files<cr>", "Find Media Files" },
