@@ -82,6 +82,7 @@ local mappings = {
 	["q"] = { "<cmd>q!<CR>", "Quit" },
 	["a"] = { "<cmd>Alpha<CR>", "Alpha" },
 	["c"] = { "<cmd>lua require('Comment.api').toggle_current_linewise()<CR>", "Comment" },
+	["T"] = { "<cmd>lua require('jester').run_file()<CR>", "Run current file" },
 	["r"] = {
 		"<cmd>lua require('regexplainer').show{display = 'popup', popup={border = {padding = { 1, 2 }, style = 'solid'}}}<CR>",
 		"Regex Explainer",
@@ -163,6 +164,14 @@ local mappings = {
 		},
 		I = { "<cmd>lua require('dap').repl.open({}, 'vsplit')<cr>", "Inspect" },
 		e = { "<cmd>lua require('dap').set_exception_breakpoints({'all'})<cr>", "Set exception breakpoints" },
+	},
+	j = {
+		t = { "<cmd>lua require('jester').run()<CR>", "Run nearest test(s) under the cursor" },
+		f = { "<cmd>lua require('jester').run_file()<CR>", "Run current file" },
+		l = { "<cmd>lua require('jester').run_last()<CR>", "Run last test(s)" },
+		d = { "<cmd>lua require('jester').debug()<CR>", "Debug nearest test(s) under the cursor" },
+		c = { "<cmd>lua require('jester').debug_file()<CR>", "Debug current file" },
+		g = { "<cmd>lua require('jester').debug_last()<CR>", "Debug last test(s)" },
 	},
 	s = {
 		name = "Search",

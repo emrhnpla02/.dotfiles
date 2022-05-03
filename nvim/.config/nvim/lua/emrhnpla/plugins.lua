@@ -86,6 +86,9 @@ return packer.startup(function(use)
 		"rcarriga/nvim-dap-ui",
 	})
 
+	-- Test
+	use("David-Kunz/jester")
+
 	-- Telescope
 	use({
 		{
