@@ -130,10 +130,13 @@ return packer.startup(function(use)
 		"JoosepAlviste/nvim-ts-context-commentstring",
 	})
 
+	-- Colorizer
+	use("norcalli/nvim-colorizer.lua")
+
 	-- Git
 	use({
 		"lewis6991/gitsigns.nvim",
-    "akinsho/git-conflict.nvim",
+		"akinsho/git-conflict.nvim",
 		"github/copilot.vim",
 	})
 
