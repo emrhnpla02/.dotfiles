@@ -52,27 +52,28 @@
   "workbench.settings.enableNaturalLanguageSearch": false,
   "update.showReleaseNotes": false,
   "extensions.autoCheckUpdates": false,
-  "editor.multiCursorModifier": "ctrlCmd",
   "editor.minimap.enabled": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
   "files.exclude": {
-    "**/.git": true,
-    "**/bin": true,
-    "**/obj": true,
-    "**/Properties": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**/.vscode": true
+    "**/.git": false,
+    "**/bin": false,
+    "**/obj": false,
+    "**/Properties": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false,
+    "**/.vscode": false
   },
   "cSpell.userWords": [
     "appsettings",
     "archlinux",
     "aspnetcore",
     "Blazor",
+    "Bulma",
     "dotfiles",
+    "Emirhan",
     "emrhnpla",
     "epfetch",
     "figcaption",
@@ -81,11 +82,19 @@
     "Hsts",
     "Lemmy",
     "monospace",
+    "navmenu",
+    "neofetch",
     "nord",
+    "nowrap",
+    "onclick",
     "pacman",
+    "Pala",
+    "Pepe",
+    "sadpepe",
     "tailwindcss",
     "udemy",
-    "vuejs"
+    "vuejs",
+    "wwwroot"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[aspnetcorerazor]": {
@@ -117,5 +126,6 @@
   ],
   "svg.preview.mode": "img",
   "window.zoomLevel": -1,
-  "cSpell.enableFiletypes": ["aspnetcorerazor"]
+  "cSpell.enableFiletypes": ["aspnetcorerazor"],
+  "editor.multiCursorModifier": "ctrlCmd"
 }

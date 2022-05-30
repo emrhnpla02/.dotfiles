@@ -1,9 +1,9 @@
-VSCodium/.config/VSCodium/*
-!VSCodium/.config/VSCodium/User
-!VSCodium/.config/VSCodium/User/extensions-list.txt
-VSCodium/.config/VSCodium/User/workspaceStorage
-VSCodium/.config/VSCodium/User/globalStorage
-VSCodium/.config/VSCodium/User/History
+vscodium/.config/VSCodium/*
+!vscodium/.config/VSCodium/User
+!vscodium/.config/VSCodium/User/extensions-list.txt
+vscodium/.config/VSCodium/User/workspaceStorage
+vscodium/.config/VSCodium/User/globalStorage
+vscodium/.config/VSCodium/User/History
 kde/.local/share/icons/hicolor/
 tmux/.config/tmux/plugins
 nvim/.config/nvim/plugin
