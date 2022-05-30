@@ -59,4 +59,7 @@ export BROWSER="firefox"
 
 export QT_QPA_PLATFORMTHEME=qt5ct
 
+# Need to use node version manager
+source /usr/share/nvm/init-nvm.sh
+
 neofetch
