@@ -20,6 +20,10 @@ Name_6=VI
 Number=6
 Rows=2
 
+[Effect-Blur]
+BlurStrength=8
+NoiseStrength=0
+
 [Effect-DesktopGrid]
 BorderActivate=3
 
@@ -38,8 +42,11 @@ BorderActivateAll=5
 [Effect-kwin4_effect_translucency]
 ComboboxPopups=93
 Dialogs=93
-Inactive=96
-Menus=94
+DropdownMenus=97
+Inactive=93
+Menus=93
+PopupMenus=95
+TornOffMenus=95
 
 [ModifierOnlyShortcuts]
 Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
@@ -51,20 +58,28 @@ NightTemperature=5000
 
 [Plugins]
 bismuthEnabled=true
+blurEnabled=true
+contrastEnabled=true
 diminactiveEnabled=true
+forceblurEnabled=true
 krohnkiteEnabled=false
 kwin4_effect_dimscreenEnabled=true
+kwin4_effect_squashEnabled=false
 kwin4_effect_translucencyEnabled=true
+magiclampEnabled=true
 minimizeallEnabled=false
 movewindowtocenterEnabled=true
 overviewEnabled=true
 quickTileToCenterEnabled=false
 sheetEnabled=true
+slidebackEnabled=true
 stepmoveEnabled=false
 synchronizeskipswitcherEnabled=false
+thumbnailasideEnabled=true
 videowallEnabled=false
 wobblywindowsEnabled=true
 yanjingEnabled=true
+zoomEnabled=false
 
 [Script-bismuth]
 enableFloatingLayout=true
@@ -76,6 +91,11 @@ screenGapLeft=5
 screenGapRight=5
 screenGapTop=5
 tileLayoutGap=5
+
+[Script-forceblur]
+blurExceptMatching=true
+blurMatching=false
+patterns=
 
 [Script-krohnkite]
 enableSpreadLayout=false
@@ -98,9 +118,6 @@ stepVertical=50
 [Script-yanjing]
 sizes=50,66,34,100
 
-[TabBox]
-LayoutName=big_icons
-
 [TabBoxAlternative]
 LayoutName=Nordic-round-mono
 
@@ -110,5 +127,7 @@ ElectricBorderDelay=50
 ElectricBorders=1
 
 [org.kde.kdecoration2]
+BorderSize=Tiny
+BorderSizeAuto=false
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Nordic

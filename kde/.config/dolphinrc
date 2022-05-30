@@ -17,6 +17,8 @@ FontWeight=50
 PreviewSize=32
 
 [KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
 detailViewIconSize=16
 
 [KPropertiesDialog]
@@ -32,12 +34,13 @@ eDP Height 1920x1080=481
 eDP Width 1920x1080=770
 eDP XPosition 1920x1080=1140
 eDP YPosition 1920x1080=72
-eDP-1 Height 1920x1080=999
+eDP-1 Height 1920x1080=1041
 eDP-1 Height 960x540=459
-eDP-1 Width 1920x1080=944
+eDP-1 Width 1920x1080=1920
 eDP-1 Width 960x540=464
-eDP-1 XPosition 1920x1080=966
-eDP-1 YPosition 1920x1080=72
+eDP-1 Window-Maximized 1920x1080=true
+eDP-1 XPosition 1920x1080=0
+eDP-1 YPosition 1920x1080=39
 eDP-1-1 Height 1920x1080=999
 eDP-1-1 Width 1920x1080=1902
 eDP-1-1 XPosition 1920x1080=9

@@ -1,3 +1,8 @@
+[TabBox]
+DesktopLayout=big_icons
+DesktopListLayout=big_icons
+LayoutName=big_icons
+
 [Windows]
 Placement=Centered
 

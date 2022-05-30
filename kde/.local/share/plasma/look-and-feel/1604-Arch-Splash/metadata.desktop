@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment=1604-Arch-Splash KDE Splash Screen
+
+Encoding=UTF-8
+Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;Arch;Dark;Red;White;Geometric;
+Name=1604-Arch-Splash
+
+Type=Service
+
+X-KDE-ServiceTypes=Plasma/LookAndFeel
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=P3tray
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-License=CCPL:by-sa
+X-KDE-PluginInfo-Name=1604-Arch-Splash
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://p3tray.github.io
+X-KDE-fallbackPackage=org.kde.breeze.desktop
+X-Plasma-MainScript=defaults
+X-KPackage-Dependencies=
