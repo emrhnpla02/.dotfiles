@@ -7,7 +7,7 @@ react_extract.setup({
 	ts_type_property_template = "[INDENT][PROPERTY]: any\n",
 	ts_template_before = 'import type {FC} from "react";\n'
 		.. "interface I[COMPONENT_NAME]Props {\n[TYPE_PROPERTIES]}\n[EMPTY_LINE]\n"
-		.. "const [COMPONENT_NAME]: FC<[COMPONENT_NAME]Props> = "
+		.. "const [COMPONENT_NAME]: FC<I[COMPONENT_NAME]Props> = "
 		.. "([PROPERTIES]) => {\n"
 		.. "[INDENT]return (\n",
 	ts_template_after = "[INDENT])\n};\n" .. "export default [COMPONENT_NAME];",
