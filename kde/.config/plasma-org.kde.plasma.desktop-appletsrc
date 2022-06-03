@@ -57,11 +57,11 @@ immutability=1
 lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
+wallpaperplugin=com.github.casout.wallpaperEngineKde
 
 [Containments][37][ConfigDialog]
-DialogHeight=663
-DialogWidth=1272
+DialogHeight=666
+DialogWidth=1280
 
 [Containments][37][Configuration]
 PreloadWeight=0
@@ -72,15 +72,32 @@ ToolBoxButtonX=568
 ToolBoxButtonY=37
 iconSize=0
 
+[Containments][37][Wallpaper][com.github.casout.wallpaperEngineKde][General]
+CustomConf=eyJmYXZvciI6WyIyNjMwNzc1NDkwIiwiMTY1OTc1MTY1NyIsIjI3OTI4NDc3MjYiXX0=
+Fps=5
+PauseMode=2
+ResumeTime=1
+SteamLibraryPath[$e]=file:$HOME/.local/share/Steam
+VideoBackend=1
+WallpaperSource[$e]=file:$HOME/.local/share/Steam/steamapps/workshop/content/431960/1659751657/PRONTO FINAL 1080 Final.mp4+video
+WallpaperWorkShopId=1659751657
+
 [Containments][37][Wallpaper][com.github.zren.inactiveblur][General]
 BlurRadius=43
 FillMode=2
 Image=file:///home/emrhnpla02/.dotfiles/Wallpapers/Pictures/Wallpapers/14.png
 
+[Containments][37][Wallpaper][org.kde.color][General]
+Color=26,26,26
+
 [Containments][37][Wallpaper][org.kde.image][General]
-Image=file:///home/emrhnpla02/.dotfiles/Wallpapers/Pictures/Wallpapers/13.png
+Image=/home/emrhnpla02/.dotfiles/Wallpapers/Pictures/Wallpapers/7.png
 SlidePaths=/home/emrhnpla02/.local/share/wallpapers,/usr/share/wallpapers
+
+[Containments][37][Wallpaper][org.kde.potd][General]
+FillMode=2
+Provider=wcpotd
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Troubleshooting.pdf,0,desktop:/plasma-home.desktop,0,desktop:/plasma-trash.desktop,0,desktop:/calamares.desktop,0,desktop:/Configuration.pdf,0,desktop:/OpenRC.pdf,0,desktop:/README.txt,0,desktop:/org.kde.konversation.desktop,0
+screenMapping=desktop:/plasma-home.desktop,0,desktop:/plasma-trash.desktop,0,desktop:/OpenRC.pdf,0,desktop:/org.kde.konversation.desktop,0,desktop:/calamares.desktop,0,desktop:/Troubleshooting.pdf,0,desktop:/Configuration.pdf,0,desktop:/README.txt,0

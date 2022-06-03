@@ -10,6 +10,7 @@ RepeatRate=40
 [Mouse]
 XLbInptAccelProfileFlat=false
 XLbInptPointerAcceleration=0.2
+cursorTheme=Nordic-cursors
 
 [Tmp]
 update_info=delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize

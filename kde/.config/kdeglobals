@@ -95,23 +95,23 @@ ForegroundVisited=143,188,187
 
 [DirSelect Dialog]
 DirSelectDialog Size=841,598
-History Items[$e]=file:$HOME/termstart,file:$HOME/termstart,file:$HOME/All,file:$HOME/All/Pictures/Wallpapers/Slideshow,file:$HOME/All/Pictures/Wallpapers/Slideshow
+History Items[$e]=file:$HOME/.local/share/Steam,file:$HOME/termstart,file:$HOME/termstart,file:$HOME/All,file:$HOME/All/Pictures/Wallpapers/Slideshow,file:$HOME/All/Pictures/Wallpapers/Slideshow
 
 [General]
 BrowserApplication=firefox.desktop
+ColorScheme=Nordic
 ColorSchemeHash=a935e515e29025e6636b957f51c3dda99b47f986
 Name=Arch
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
-XftAntialias=true
-XftHintStyle=hintfull
+XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=Roboto,9,-1,5,50,0,0,0,0,0
-font=Roboto,10,-1,5,50,0,0,0,0,0
-menuFont=Roboto,10,-1,5,50,0,0,0,0,0
+fixed=Rubik,9,-1,5,50,0,0,0,0,0
+font=Rubik,10,-1,5,50,0,0,0,0,0
+menuFont=Rubik,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Roboto,9,-1,5,50,0,0,0,0,0
-toolBarFont=Roboto,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Rubik,9,-1,5,50,0,0,0,0,0
+toolBarFont=Rubik,10,-1,5,50,0,0,0,0,0
 widgetStyle=gtk2
 
 [Icons]
@@ -160,7 +160,7 @@ TransparentMoving=false
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
-activeFont=Roboto,10,-1,5,50,0,0,0,0,0
+activeFont=Rubik,10,-1,5,50,0,0,0,0,0
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63

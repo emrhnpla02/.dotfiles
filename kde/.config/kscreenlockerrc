@@ -5,5 +5,5 @@ update_info=kscreenlocker.upd:0.1-autolock
 Autolock=false
 
 [Greeter][Wallpaper][org.kde.image][General]
-Image=/home/emrhnpla02/Pictures/Wallpapers/14.png
+Image=/home/emrhnpla02/.local/share/wallpapers/nordic-wallpaper.jpg
 SlidePaths=/home/emrhnpla02/.local/share/wallpapers,/usr/share/wallpapers

@@ -127,7 +127,7 @@ ElectricBorderDelay=50
 ElectricBorders=1
 
 [org.kde.kdecoration2]
-BorderSize=Tiny
+BorderSize=None
 BorderSizeAuto=false
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Nordic
