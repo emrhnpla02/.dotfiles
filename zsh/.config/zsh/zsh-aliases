@@ -36,6 +36,11 @@ alias P="paru"
 
 # Git
 alias Gl-o="git log --oneline"
+alias Gsl="git stash list"
+alias Gsa="git stash save"
+alias Gss="git stash show"
+alias Gsd="git stash drop"
+alias Gsp="git stash pop"
 alias Gch="git checkout"
 alias Gsw="git switch"
 alias Gr="git restore"
