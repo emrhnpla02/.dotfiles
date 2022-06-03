@@ -103,13 +103,6 @@ alias psqlinit="postgres initdb -D /var/lib/postgres/data"
 alias psqluser="sudo -u postgres -i"
 
 
-# NodeJS
-alias Nrs="npm run serve"
-alias Nrb="npm run build"
-alias Ni="npm install"
-alias Ninit="npm init"
-
-
 # Apps
 alias vw="nvim ~/All/vimwiki/vimwiki_wiki/index.wiki"
 alias trash-empty="sudo trash-empty"
