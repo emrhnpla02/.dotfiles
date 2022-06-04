@@ -72,7 +72,6 @@ _k_friendly_name=Custom Shortcuts Service
 {82925203-7924-4c74-9b63-cdbeb7a4d286}=Meta+T,none,Alacritty
 {9fa6f00e-9c16-453c-ab4b-3bb834ce54d7}=Meta+F,none,FirefoxDev
 {aab57f02-4025-4776-bf77-4c416df33eeb}=Print,none,Flameshot
-{ac0c7be1-404a-4f7e-af5a-6ce5a697374a}=none,none,Launch Konsole
 {c9c98f56-c063-47ee-8af0-7380d99b982d}=Meta+C,none,VSCodium
 {ca2380bd-fe11-4022-aa6a-4fc8e9f587a9}=Meta+V,none,Neovim
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none,none,Search
@@ -342,11 +341,11 @@ show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,none,Media volume down
-mediavolumeup=none,none,Media volume up
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,none,Play media playback
+playmedia=none,,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
@@ -362,6 +361,12 @@ _launch=Meta+E,Meta+E,Dolphin
 [org.kde.kinfocenter.desktop]
 _k_friendly_name=Info Center
 _launch=none,none,Launch Info Center
+
+[org.kde.konsole.desktop]
+NewTab=none,none,Open a New Tab
+NewWindow=none,none,Open a New Window
+_k_friendly_name=Konsole
+_launch=none,none,Konsole
 
 [org.kde.krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Run command on clipboard contents

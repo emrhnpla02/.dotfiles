@@ -134,11 +134,11 @@ ForegroundVisited=143,188,187
 ColorScheme=Nordic
 Name=Nordic
 font=Rubik,10,-1,5,50,0,0,0,0,0
-menuFont=Rubik,10,-1,5,50,0,0,0,0,0
+menuFont=Rubik,9,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
 smallestReadableFont=Rubik,9,-1,5,50,0,0,0,0,0
-toolBarFont=Rubik,10,-1,5,50,0,0,0,0,0
-widgetStyle=Breeze
+toolBarFont=Rubik,9,-1,5,50,0,0,0,0,0
+widgetStyle=kvantum
 
 [Icons]
 Theme=Papirus-Dark

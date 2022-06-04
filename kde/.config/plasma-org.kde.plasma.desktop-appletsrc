@@ -75,12 +75,12 @@ iconSize=0
 [Containments][37][Wallpaper][com.github.casout.wallpaperEngineKde][General]
 CustomConf=eyJmYXZvciI6WyIyNjMwNzc1NDkwIiwiMTY1OTc1MTY1NyIsIjI3OTI4NDc3MjYiXX0=
 Fps=5
+MouseInput=false
 PauseMode=2
-ResumeTime=1
 SteamLibraryPath[$e]=file:$HOME/.local/share/Steam
 VideoBackend=1
-WallpaperSource[$e]=file:$HOME/.local/share/Steam/steamapps/workshop/content/431960/1659751657/PRONTO FINAL 1080 Final.mp4+video
-WallpaperWorkShopId=1659751657
+WallpaperSource[$e]=file:$HOME/.local/share/Steam/steamapps/workshop/content/431960/2630775490/index.html+web
+WallpaperWorkShopId=2630775490
 
 [Containments][37][Wallpaper][com.github.zren.inactiveblur][General]
 BlurRadius=43
@@ -100,4 +100,4 @@ Provider=wcpotd
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/plasma-home.desktop,0,desktop:/plasma-trash.desktop,0,desktop:/OpenRC.pdf,0,desktop:/org.kde.konversation.desktop,0,desktop:/calamares.desktop,0,desktop:/Troubleshooting.pdf,0,desktop:/Configuration.pdf,0,desktop:/README.txt,0
+screenMapping=desktop:/plasma-home.desktop,0,desktop:/org.kde.konversation.desktop,0,desktop:/calamares.desktop,0,desktop:/Troubleshooting.pdf,0,desktop:/plasma-trash.desktop,0,desktop:/OpenRC.pdf,0,desktop:/Configuration.pdf,0,desktop:/README.txt,0

@@ -21,7 +21,7 @@ Number=6
 Rows=2
 
 [Effect-Blur]
-BlurStrength=8
+BlurStrength=4
 NoiseStrength=0
 
 [Effect-DesktopGrid]
@@ -39,12 +39,17 @@ BorderActivate=4
 [Effect-PresentWindows]
 BorderActivateAll=5
 
+[Effect-Wobbly]
+Drag=85
+Stiffness=10
+WobblynessLevel=1
+
 [Effect-kwin4_effect_translucency]
-ComboboxPopups=93
-Dialogs=93
+ComboboxPopups=92
+Dialogs=92
 DropdownMenus=97
 Inactive=93
-Menus=93
+Menus=80
 PopupMenus=95
 TornOffMenus=95
 

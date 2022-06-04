@@ -94,8 +94,8 @@ ForegroundPositive=163,190,140
 ForegroundVisited=143,188,187
 
 [DirSelect Dialog]
-DirSelectDialog Size=841,598
-History Items[$e]=file:$HOME/.local/share/Steam,file:$HOME/termstart,file:$HOME/termstart,file:$HOME/All,file:$HOME/All/Pictures/Wallpapers/Slideshow,file:$HOME/All/Pictures/Wallpapers/Slideshow
+DirSelectDialog Size=829,568
+History Items[$e]=file:///usr/share/Kvantum/MateriaNordDark,file:///usr/share/Kvantum,file:$HOME/.local/share/Steam,file:$HOME/termstart,file:$HOME/termstart,file:$HOME/All,file:$HOME/All/Pictures/Wallpapers/Slideshow,file:$HOME/All/Pictures/Wallpapers/Slideshow
 
 [General]
 BrowserApplication=firefox.desktop
@@ -106,12 +106,12 @@ TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=Rubik,9,-1,5,50,0,0,0,0,0
+fixed=Rubik,10,-1,5,50,0,0,0,0,0
 font=Rubik,10,-1,5,50,0,0,0,0,0
-menuFont=Rubik,10,-1,5,50,0,0,0,0,0
+menuFont=Rubik,9,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
 smallestReadableFont=Rubik,9,-1,5,50,0,0,0,0,0
-toolBarFont=Rubik,10,-1,5,50,0,0,0,0,0
+toolBarFont=Rubik,9,-1,5,50,0,0,0,0,0
 widgetStyle=gtk2
 
 [Icons]
@@ -125,7 +125,7 @@ ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
 contrast=0
-widgetStyle=Breeze
+widgetStyle=kvantum
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -160,7 +160,7 @@ TransparentMoving=false
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
-activeFont=Rubik,10,-1,5,50,0,0,0,0,0
+activeFont=Rubik,9,-1,5,50,0,0,0,0,0
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
