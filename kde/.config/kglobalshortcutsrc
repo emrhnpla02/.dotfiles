@@ -79,9 +79,9 @@ _k_friendly_name=Custom Shortcuts Service
 [kmix]
 _k_friendly_name=Audio Volume
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decrease Microphone Volume
-decrease_volume=Volume Down,Volume Down,Decrease Volume
+decrease_volume=none,Volume Down,Decrease Volume
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
-increase_volume=Volume Up,Volume Up,Increase Volume
+increase_volume=none,Volume Up,Increase Volume
 mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
@@ -341,8 +341,8 @@ show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,,Media volume down
-mediavolumeup=none,,Media volume up
+mediavolumedown=Volume Down,,Media volume down
+mediavolumeup=Volume Up,,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
 playmedia=none,,Play media playback
