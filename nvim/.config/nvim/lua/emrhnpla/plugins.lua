@@ -204,6 +204,9 @@ return packer.startup(function(use)
 	-- Hlslens
 	use({ "kevinhwang91/nvim-hlslens" })
 
+	-- Fold
+	use({ "anuvyklack/pretty-fold.nvim", requires = "anuvyklack/nvim-keymap-amend" })
+
 	-- Iswap
 	use("mizlan/iswap.nvim")
 
