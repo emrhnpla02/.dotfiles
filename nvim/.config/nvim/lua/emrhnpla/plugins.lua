@@ -158,8 +158,11 @@ return packer.startup(function(use)
 
 	-- Lualine
 	use({
-		"nvim-lualine/lualine.nvim",
-		requires = "kyazdani42/nvim-web-devicons",
+		{
+			"nvim-lualine/lualine.nvim",
+			requires = "kyazdani42/nvim-web-devicons",
+		},
+		"SmiteshP/nvim-gps",
 	})
 
 	-- Indentline
