@@ -168,6 +168,9 @@ return packer.startup(function(use)
 	-- Indentline
 	use("lukas-reineke/indent-blankline.nvim")
 
+	-- Cursorline
+	use("yamatsum/nvim-cursorline")
+
 	-- Symbols-Outline
 	use("simrat39/symbols-outline.nvim")
 
