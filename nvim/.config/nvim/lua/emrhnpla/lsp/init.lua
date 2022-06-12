@@ -6,3 +6,4 @@ end
 require("emrhnpla.lsp.lsp-installer")
 require("emrhnpla.lsp.handlers").setup()
 require("emrhnpla.lsp.null-ls")
+require("emrhnpla.lsp.lspsaga")
