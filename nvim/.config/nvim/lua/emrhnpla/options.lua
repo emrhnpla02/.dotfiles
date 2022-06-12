@@ -43,11 +43,3 @@ vim.cmd("set whichwrap+=<,>,[,],h,l")
 vim.cmd([[set iskeyword+=-,/]])
 vim.cmd([[set formatoptions-=cro]])
 vim.cmd([[set viewoptions-=options ]])
-
-vim.cmd([[
-augroup remember_folds
-    autocmd!
-    autocmd BufWinLeave *.* mkview
-    autocmd BufWinEnter *.* silent! loadview
-augroup END
-]])
