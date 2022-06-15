@@ -105,12 +105,9 @@ alias psqluser="sudo -u postgres -i"
 
 
 # Apps
-alias vw="nvim ~/All/vimwiki/vimwiki_wiki/index.wiki"
 alias trash-empty="sudo trash-empty"
-alias prime-run="devour prime-run"
 alias scrcpy="devour scrcpy"
 alias d="devour dolphin"
-alias stm="steam-tui"
 alias code="vscodium"
 alias nv="nvim"
 alias v="nvim"
