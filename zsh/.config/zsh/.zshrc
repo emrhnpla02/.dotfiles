@@ -62,4 +62,7 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 # Need to use node version manager
 source /usr/share/nvm/init-nvm.sh
 
+# SSH
+eval `keychain --quiet --agents ssh --eval id_rsa`
+
 neofetch
