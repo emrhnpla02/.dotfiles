@@ -55,6 +55,7 @@ eDP-1-1 YPosition 1920x1080=72
 
 [Notification Messages]
 ConfirmDelete=true
+ConfirmEmptyTrash=true
 
 [Open-with settings]
 CompletionMode=1

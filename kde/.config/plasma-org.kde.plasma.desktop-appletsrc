@@ -68,19 +68,20 @@ PreloadWeight=0
 
 [Containments][37][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=568
-ToolBoxButtonY=37
+ToolBoxButtonX=559
+ToolBoxButtonY=39
 iconSize=0
 
 [Containments][37][Wallpaper][com.github.casout.wallpaperEngineKde][General]
 CustomConf=eyJmYXZvciI6WyIyNjMwNzc1NDkwIiwiMTY1OTc1MTY1NyIsIjI3OTI4NDc3MjYiXX0=
-Fps=5
+Fps=25
 MouseInput=false
 PauseMode=2
+ResumeTime=51
 SteamLibraryPath[$e]=file:$HOME/.local/share/Steam
 VideoBackend=1
-WallpaperSource[$e]=file:$HOME/.local/share/Steam/steamapps/workshop/content/431960/2630775490/index.html+web
-WallpaperWorkShopId=2630775490
+WallpaperSource[$e]=file:$HOME/.local/share/Steam/steamapps/workshop/content/431960/2152985628/scene.json+scene
+WallpaperWorkShopId=2152985628
 
 [Containments][37][Wallpaper][com.github.zren.inactiveblur][General]
 BlurRadius=43
@@ -100,4 +101,4 @@ Provider=wcpotd
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Configuration.pdf,0,desktop:/plasma-trash.desktop,0,desktop:/org.kde.konversation.desktop,0,desktop:/plasma-home.desktop,0,desktop:/OpenRC.pdf,0,desktop:/Troubleshooting.pdf,0,desktop:/README.txt,0,desktop:/calamares.desktop,0
+screenMapping=desktop:/Troubleshooting.pdf,0,desktop:/plasma-trash.desktop,0,desktop:/README.txt,0,desktop:/plasma-home.desktop,0,desktop:/calamares.desktop,0,desktop:/Configuration.pdf,0,desktop:/org.kde.konversation.desktop,0,desktop:/OpenRC.pdf,0
