@@ -37,6 +37,12 @@ ForegroundNormal=216,222,233
 ForegroundPositive=163,190,140
 ForegroundVisited=82,148,226
 
+[Colors:Complementary]
+DecorationFocus[$d]
+DecorationHover[$d]
+ForegroundActive[$d]
+ForegroundLink[$d]
+
 [Colors:Selection]
 BackgroundAlternate=29,153,243
 BackgroundNormal=143,188,187
@@ -94,18 +100,18 @@ ForegroundPositive=163,190,140
 ForegroundVisited=143,188,187
 
 [DirSelect Dialog]
-DirSelectDialog Size=843,590
-History Items[$e]=file:///usr/share/Kvantum/MateriaNordDark,file:///usr/share/Kvantum,file:$HOME/.local/share/Steam,file:$HOME/termstart,file:$HOME/termstart,file:$HOME/All,file:$HOME/All/Pictures/Wallpapers/Slideshow,file:$HOME/All/Pictures/Wallpapers/Slideshow
+DirSelectDialog Size=843,578
+History Items[$e]=file:$HOME/Videos,file:///usr/share/Kvantum/MateriaNordDark,file:///usr/share/Kvantum,file:$HOME/.local/share/Steam,file:$HOME/termstart,file:$HOME/termstart,file:$HOME/All,file:$HOME/All/Pictures/Wallpapers/Slideshow,file:$HOME/All/Pictures/Wallpapers/Slideshow
 
 [General]
 BrowserApplication=firefox.desktop
-ColorScheme=Nordic
-ColorSchemeHash=a935e515e29025e6636b957f51c3dda99b47f986
+ColorSchemeHash=80ed8b57cd92e36440ff1d408d467f2bfa65cfc5
 Name=Arch
 TerminalApplication=alacritty
 TerminalService=Alacritty.desktop
 XftHintStyle=hintslight
 XftSubPixel=rgb
+accentColorFromWallpaper=false
 fixed=Rubik,10,-1,5,50,0,0,0,0,0
 font=Rubik,10,-1,5,50,0,0,0,0,0
 menuFont=Rubik,9,-1,5,50,0,0,0,0,0

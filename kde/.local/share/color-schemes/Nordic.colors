@@ -91,6 +91,7 @@ ForegroundVisited=143,188,187
 [General]
 ColorScheme=Nordic
 Name=Nordic
+TintFactor=0.15
 shadeSortColumn=true
 
 [KDE]

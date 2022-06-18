@@ -8,6 +8,7 @@ RepeatDelay=200
 RepeatRate=40
 
 [Mouse]
+X11LibInputXAccelProfileFlat=false
 XLbInptAccelProfileFlat=false
 XLbInptPointerAcceleration=0.2
 cursorTheme=Nordic-cursors
