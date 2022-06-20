@@ -100,7 +100,7 @@ ForegroundPositive=163,190,140
 ForegroundVisited=143,188,187
 
 [DirSelect Dialog]
-DirSelectDialog Size=843,578
+DirSelectDialog Size=843,590
 History Items[$e]=file:$HOME/Videos,file:///usr/share/Kvantum/MateriaNordDark,file:///usr/share/Kvantum,file:$HOME/.local/share/Steam,file:$HOME/termstart,file:$HOME/termstart,file:$HOME/All,file:$HOME/All/Pictures/Wallpapers/Slideshow,file:$HOME/All/Pictures/Wallpapers/Slideshow
 
 [General]

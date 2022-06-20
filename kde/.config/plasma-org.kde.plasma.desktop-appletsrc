@@ -60,8 +60,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=com.github.casout.wallpaperEngineKde
 
 [Containments][37][ConfigDialog]
-DialogHeight=666
-DialogWidth=1280
+DialogHeight=991
+DialogWidth=1457
 
 [Containments][37][Configuration]
 PreloadWeight=0
@@ -101,4 +101,4 @@ Provider=wcpotd
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/OpenRC.pdf,0,608ddd7e-d14c-4c24-9326-a219d5a71182,desktop:/calamares.desktop,0,608ddd7e-d14c-4c24-9326-a219d5a71182,desktop:/README.txt,0,608ddd7e-d14c-4c24-9326-a219d5a71182,desktop:/plasma-trash.desktop,0,608ddd7e-d14c-4c24-9326-a219d5a71182,desktop:/Configuration.pdf,0,608ddd7e-d14c-4c24-9326-a219d5a71182,desktop:/org.kde.konversation.desktop,0,608ddd7e-d14c-4c24-9326-a219d5a71182,desktop:/Troubleshooting.pdf,0,608ddd7e-d14c-4c24-9326-a219d5a71182,desktop:/plasma-home.desktop,0,608ddd7e-d14c-4c24-9326-a219d5a71182
+screenMapping=desktop:/OpenRC.pdf,0,file:///home/emrhnpla02/0,file:///home/emrhnpla02/608ddd7e-d14c-4c24-9326-a219d5a71182,0,desktop:/Configuration.pdf,file:///home/emrhnpla02/0,0,0
