@@ -56,6 +56,8 @@ compinit
 export EDITOR="nvim"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
+export PNPM_HOME="/home/emrhnpla02/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
 
 export QT_QPA_PLATFORMTHEME=qt5ct
 
