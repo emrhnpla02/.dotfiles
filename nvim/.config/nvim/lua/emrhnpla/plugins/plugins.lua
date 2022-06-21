@@ -138,7 +138,6 @@ return packer.startup(function(use)
 	use({
 		"lewis6991/gitsigns.nvim",
 		"akinsho/git-conflict.nvim",
-		"github/copilot.vim",
 	})
 
 	-- Nvimtree
