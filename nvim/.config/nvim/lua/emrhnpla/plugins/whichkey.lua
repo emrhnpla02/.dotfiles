@@ -85,7 +85,7 @@ local mappings = {
 	["T"] = { "<cmd>lua require('jester').run_file()<CR>", "Run current file" },
 	["r"] = {
 		"<cmd>lua require('lspsaga.rename').rename()<CR>",
-		"Regex Explainer",
+		"Rename",
 	},
 	["R"] = {
 		"<cmd>lua require('regexplainer').show{display = 'popup', popup={border = {padding = { 1, 2 }, style = 'solid'}}}<CR>",
