@@ -62,7 +62,7 @@ export PATH="$PNPM_HOME:$PATH"
 export QT_QPA_PLATFORMTHEME=qt5ct
 
 # Need to use node version manager
-source /usr/share/nvm/init-nvm.sh
+[ -f /usr/share/nvm/init-nvm.sh ] && source /usr/share/nvm/init-nvm.sh --no-use
 
 # SSH
 eval `keychain --quiet --agents ssh --eval id_rsa`
