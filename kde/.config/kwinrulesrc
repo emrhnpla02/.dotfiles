@@ -1,17 +1,8 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
 
-[1]
-Description=Application settings for ffpwa-01g3zz3r05tase453b0rmg0eey
-clientmachine=localhost
-desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
-noborder=true
-noborderrule=3
-opacityactive=80
-title=Spotify
-windowrole=dolphin#1
-wmclass=navigator ffpwa-01g3zz3r05tase453b0rmg0eey
-wmclasscomplete=true
+[036c0c99-bb00-4325-8fce-c771424d82af]
+Description=New window settings
 wmclassmatch=1
 
 [2]
@@ -35,19 +26,6 @@ opacityactiverule=2
 title=Spotify
 windowrole=dolphin#1
 wmclass=dolphin
-wmclassmatch=1
-
-[4]
-Description=Application settings for firefox-nightly
-clientmachine=localhost
-desktops=f756c08f-d0e9-4a87-abb0-b958605ce573
-noborder=true
-noborderrule=3
-opacityactive=90
-title=Spotify
-windowrole=dolphin#1
-wmclass=navigator firefox-nightly
-wmclasscomplete=true
 wmclassmatch=1
 
 [5]
@@ -83,17 +61,6 @@ windowrole=dolphin#1
 wmclass=spotify
 wmclassmatch=1
 
-[7]
-Description=Application settings for firefox
-clientmachine=localhost
-noborder=true
-noborderrule=3
-title=Spotify
-windowrole=dolphin#1
-wmclass=navigator firefox
-wmclasscomplete=true
-wmclassmatch=1
-
 [71ec6cf4-40a5-44ce-be61-6253fd6e5bc4]
 Description=Application settings for dolphin
 clientmachine=localhost
@@ -102,19 +69,9 @@ opacityactiverule=2
 wmclass=dolphin
 wmclassmatch=1
 
-[8]
-Description=Application settings for ferdi
-clientmachine=localhost
-noborder=true
-noborderrule=3
-title=Spotify
-windowrole=dolphin#1
-wmclass=ferdi
-wmclassmatch=1
-
 [General]
-count=8
-rules=1,2,3,4,5,6,7,8
+count=4
+rules=2,5,3,6
 
 [f9c99d44-47a5-4184-9e30-0600c2c1d3db]
 Description=Application settings for firefoxdeveloperedition

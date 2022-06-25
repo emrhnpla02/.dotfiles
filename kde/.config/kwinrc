@@ -10,7 +10,7 @@ Id_2=f756c08f-d0e9-4a87-abb0-b958605ce573
 Id_3=2143816e-cfd4-4757-9e94-ef634f750c19
 Id_4=4a72cf35-088d-4342-87a2-7cc8c31020a2
 Id_5=b6757e89-a5ca-42ec-951d-4806ceb0bea7
-Id_6=4773106c-3ff0-4953-8941-03537eb51f89
+Id_6=611e307a-f93d-444e-bbc8-428c296cc8d5
 Name_1=I
 Name_2=II
 Name_3=III
@@ -101,6 +101,7 @@ blurEnabled=true
 contrastEnabled=true
 diminactiveEnabled=true
 forceblurEnabled=true
+hide-titlesEnabled=true
 krohnkiteEnabled=false
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_squashEnabled=false
@@ -157,16 +158,23 @@ stepVertical=50
 [Script-yanjing]
 sizes=50,66,34,100
 
+[TabBox]
+LayoutName=present_windows
+
 [TabBoxAlternative]
-LayoutName=Nordic-round-mono
+LayoutName=
 
 [Windows]
 ElectricBorderCooldown=100
 ElectricBorderDelay=50
 ElectricBorders=1
+Placement=Smart
 
 [org.kde.kdecoration2]
-BorderSize=None
+BorderSize=Tiny
 BorderSizeAuto=false
+ButtonsOnLeft=SFB
+ButtonsOnRight=XAI
+ShowToolTips=false
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__Nordic
