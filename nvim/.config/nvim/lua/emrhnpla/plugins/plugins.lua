@@ -72,7 +72,7 @@ return packer.startup(function(use)
 	use({
 		"neovim/nvim-lspconfig",
 		"williamboman/nvim-lsp-installer",
-		"glepnir/lspsaga.nvim",
+		{ "glepnir/lspsaga.nvim", branch = "main" },
 		{
 			"jose-elias-alvarez/null-ls.nvim",
 			requires = {
