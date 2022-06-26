@@ -8,7 +8,12 @@ lspsaga.init_lsp_saga({
 	-- use emoji
 	-- like {'🙀','😿','😾','😺'}
 	-- {'😡','😥','😤','😐'}
-	diagnostic_header_icon = { " ", " ", " ", "ﴞ " },
+	-- and diagnostic_header can be a function type
+	-- must return a string and when diagnostic_header
+	-- is fucntion type it will have a param `entry`
+	-- entry is a table type has these filed
+	-- {bufnr,code,col,end_col,end_lnum,lnum,message,severity,source}
+	diagnostic_header = { " ", " ", " ", "ﴞ " },
 	-- show diagnostic source
 	show_diagnostic_source = true,
 	-- add bracket or something with diagnostic source,just have 2 elements
@@ -24,8 +29,8 @@ lspsaga.init_lsp_saga({
 		sign_priority = 20,
 		virtual_text = true,
 	},
-	finder_definition_icon = "  ",
-	finder_reference_icon = "  ",
+	-- separator in finder
+	finder_separator = "  ",
 	-- preview lines of lsp_finder and definition preview
 	max_preview_lines = 10,
 	finder_action_keys = {
