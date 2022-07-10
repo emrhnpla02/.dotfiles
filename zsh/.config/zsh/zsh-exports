@@ -10,6 +10,8 @@ export PATH=$HOME/.local/share/go/bin:$PATH
 export GOPATH=$HOME/.local/share/go
 export PATH=$HOME/.fnm:$PATH
 export PATH="$PATH:./node_modules/.bin"
+export BUN_INSTALL="/home/emrhnpla02/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 eval "$(fnm env)"
 
 

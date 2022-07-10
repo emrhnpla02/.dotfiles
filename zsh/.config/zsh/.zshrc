@@ -64,6 +64,9 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 # Need to use node version manager
 [ -f /usr/share/nvm/init-nvm.sh ] && source /usr/share/nvm/init-nvm.sh --no-use
 
+# bun completions
+[ -s "/home/emrhnpla02/.bun/_bun" ] && source "/home/emrhnpla02/.bun/_bun"
+
 # SSH
 eval `keychain --quiet --agents ssh --eval id_rsa`
 
