@@ -59,10 +59,7 @@ ConfirmEmptyTrash=true
 
 [Open-with settings]
 CompletionMode=1
-History=neov,fire,neo,vsc,ark,alac,ok
+History=neo,neov,fire,vsc,ark,alac,ok
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,pothumbnail,imagethumbnail,jpegthumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs
-
-[Search]
-Location=Everywhere

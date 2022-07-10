@@ -60,8 +60,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=com.github.casout.wallpaperEngineKde
 
 [Containments][37][ConfigDialog]
-DialogHeight=998
-DialogWidth=1350
+DialogHeight=665
+DialogWidth=1278
 
 [Containments][37][Configuration]
 PreloadWeight=0
@@ -74,16 +74,15 @@ iconSize=0
 
 [Containments][37][Wallpaper][com.github.casout.wallpaperEngineKde][General]
 CustomConf=eyJmYXZvciI6WyIyNjMwNzc1NDkwIiwiMTY1OTc1MTY1NyIsIjI3OTI4NDc3MjYiXX0=
-Fps=5
+DisplayMode=1
+Fps=25
 MouseInput=false
 PauseAcPlugin=true
-PauseBatPercent=50
-PauseMode=2
-ResumeTime=101
+ResumeTime=1
 SteamLibraryPath[$e]=file:$HOME/.local/share/Steam
 VideoBackend=1
-WallpaperSource[$e]=file:$HOME/.local/share/Steam/steamapps/workshop/content/431960/1659751657/PRONTO FINAL 1080 Final.mp4+video
-WallpaperWorkShopId=1659751657
+WallpaperSource[$e]=file:$HOME/.local/share/Steam/steamapps/workshop/content/431960/2155738894/scene.json+scene
+WallpaperWorkShopId=2155738894
 
 [Containments][37][Wallpaper][com.github.zren.inactiveblur][General]
 BlurRadius=43
@@ -103,4 +102,4 @@ Provider=wcpotd
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=file:///home/emrhnpla02/608ddd7e-d14c-4c24-9326-a219d5a71182,0,desktop:/Configuration.pdf,file:///home/emrhnpla02/0,0,0,desktop:/OpenRC.pdf,0,file:///home/emrhnpla02/0
+screenMapping=desktop:/OpenRC.pdf,0,file:///home/emrhnpla02/0,file:///home/emrhnpla02/0,0,0,file:///home/emrhnpla02/608ddd7e-d14c-4c24-9326-a219d5a71182,0,desktop:/Configuration.pdf
