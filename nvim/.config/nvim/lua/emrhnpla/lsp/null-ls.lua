@@ -14,8 +14,11 @@ null_ls.setup({
 	debug = false,
 	sources = {
 		formatting.prettierd,
+		formatting.rustywind,
+		formatting.rustfmt,
 		diagnostics.eslint_d,
 		code_actions.eslint_d,
+		code_actions.gitsigns,
 		formatting.stylua,
 	},
 })

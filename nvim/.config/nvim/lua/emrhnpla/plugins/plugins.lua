@@ -119,6 +119,14 @@ return packer.startup(function(use)
 		"windwp/nvim-ts-autotag",
 	})
 
+	-- Rust
+	use({
+		"simrat39/rust-tools.nvim",
+		{
+			"saecki/crates.nvim",
+		},
+	})
+
 	-- ReactJS
 	use("napmn/react-extract.nvim")
 
