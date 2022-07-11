@@ -34,15 +34,15 @@ lspsaga.init_lsp_saga({
 	-- preview lines of lsp_finder and definition preview
 	max_preview_lines = 10,
 	finder_action_keys = {
-		open = "o",
-		vsplit = "s",
-		split = "i",
-		quit = "q",
-		scroll_down = "<C-f>",
-		scroll_up = "<C-b>", -- quit can be a table
+		open = "l",
+		vsplit = "v",
+		split = "s",
+		quit = "<ESC>",
+		scroll_down = "j",
+		scroll_up = "k",
 	},
 	code_action_keys = {
-		quit = "q",
+		quit = "<ESC>",
 		exec = "<CR>",
 	},
 	definition_preview_icon = "  ",
