@@ -103,6 +103,17 @@ alias DK="doas docker"
 alias psqlinit="postgres initdb -D /var/lib/postgres/data"
 alias psqluser="sudo -u postgres -i"
 
+# Cargo
+alias cgp="cargo publish"
+alias cgu="cargo update"
+alias cgb="cargo build"
+alias cgc="cargo check"
+alias cgi="cargo init"
+alias cgt="cargo test"
+alias cgr="cargo run"
+alias cgn="cargo new"
+alias cga="cargo add"
+alias cg="cargo"
 
 # Apps
 alias trash-empty="sudo trash-empty"
