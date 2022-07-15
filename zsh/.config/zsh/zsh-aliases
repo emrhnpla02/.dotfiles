@@ -3,19 +3,30 @@
 # Config Files
 alias confvk="nvim ~/.config/VSCodium/User/keybindings.json"
 alias confvs="nvim ~/.config/VSCodium/User/settings.json"
+alias confvu="cd ~/.config/VSCodium/User"
+alias confv="cd ~/.config/VSCodium"
+
 alias confa="nvim ~/.config/alacritty/alacritty.yml"
+
 alias confzf="nvim ~/.config/zsh/zsh-functions"
 alias confzv="nvim ~/.config/zsh/zsh-vim-mode"
-alias confnl="cd ~/.config/nvim/lua/emrhnpla/"
 alias confza="nvim ~/.config/zsh/zsh-aliases"
 alias confze="nvim ~/.config/zsh/zsh-exports"
 alias confzp="nvim ~/.config/zsh/zsh-prompt"
-alias conft="nvim ~/.config/tmux/tmux.conf"
-alias confn="nvim ~/.config/nvim/init.lua"
-alias confvu="cd ~/.config/VSCodium/User"
 alias confz="nvim ~/.config/zsh/.zshrc"
-alias confv="cd ~/.config/VSCodium"
+
+alias confnl="cd ~/.config/nvim/lua/emrhnpla/"
+alias confn="nvim ~/.config/nvim/init.lua"
+
+alias conft="nvim ~/.config/tmux/tmux.conf"
+
 alias dotfiles="cd ~/.dotfiles"
+
+alias config="cd ~/.config"
+
+
+# Folders
+alias repos="cd ~/All/Programming/Repos"
 
 
 # Package Manager & Aur Helper
@@ -62,47 +73,6 @@ alias Gl="git log"
 alias G="git"
 
 
-# DotNet
-alias Dusi="dotnet user-secrets init"
-alias Drs="dotnet restore"
-alias Drm="dotnet remove"
-alias Dp="dotnet publish"
-alias Db="dotnet build"
-alias Dc="dotnet clean"
-alias Dsln="dotnet sln"
-alias Dl="dotnet list"
-alias Dw="dotnet watch"
-alias Dt="dotnet test"
-alias Dr="dotnet run"
-alias Da="dotnet add"
-alias Dn="dotnet new"
-alias D="dotnet"
-
-# EntityFramework Core
-alias Defma="function _(){ dotnet ef migrations add $1 -p $2 -s $3 }; _"
-alias Defda="function _(){ dotnet ef database update -p $1 -s $2 }; _"
-
-
-# Docker
-alias DKcl="doas docker container logs"
-alias DKit="doas docker images tag"
-alias DKi="doas docker inspect"
-alias DKstr="doas docker start"
-alias DKa="doas docker attach"
-alias DKstp="doas docker stop"
-alias DKi="doas docker images"
-alias DKp="doas docker pull"
-alias DKps="doas docker ps"
-alias DKrm="doas docker rm"
-alias DKr="doas docker run"
-alias docker="doas docker"
-alias DK="doas docker"
-
-
-# PostgreSQL
-alias psqlinit="postgres initdb -D /var/lib/postgres/data"
-alias psqluser="sudo -u postgres -i"
-
 # Cargo
 alias cgp="cargo publish"
 alias cgu="cargo update"
@@ -114,6 +84,7 @@ alias cgr="cargo run"
 alias cgn="cargo new"
 alias cga="cargo add"
 alias cg="cargo"
+
 
 # Apps
 alias trash-empty="sudo trash-empty"
