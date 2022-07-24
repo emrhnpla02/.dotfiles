@@ -13,7 +13,10 @@ export PATH="$PATH:./node_modules/.bin"
 export BUN_INSTALL="/home/emrhnpla02/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 eval "$(fnm env)"
-
+# Android SDK
+export ANDROID_SDK_ROOT=$HOME/Library/Android/Sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
